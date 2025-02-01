@@ -1,0 +1,8 @@
+//Compte
+
+gmail: jobradar50@gmail.com
+mdp:Siteemploi650
+mdp_app:aees jfre rqom qeed
+
+//Technologie utiliser
+-Composer: pour l'envoie de mail
