@@ -47,3 +47,12 @@ color: white;
 main form p a{
     color: rgb(3, 173, 3);
 }
+.err_msg{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 75px;
+    color: rgb(210, 62, 3);
+    
+    font-size: 20px;
+}

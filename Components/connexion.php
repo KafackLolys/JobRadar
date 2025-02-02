@@ -15,10 +15,10 @@
 include("header.html");
 ?>
 <main>
-    <form method="POST" action="../api/loginUser.php">
+    <form method="POST" action="../api/login.php">
             <h1>Connexion</h1>
-            <input type="email" name="email" class="champ" id="" placeholder="Email" required>
-            <input type="password" name="mdp" class="champ" id="" placeholder="Mot de passe" required>
+            <input type="email" name="email" class="champ" id="email" placeholder="Email" required>
+            <input type="password" name="mdp" class="champ" id="mdp" placeholder="Mot de passe" required>
             <button class="btn" type="submit">Valider</button>
             <br><br><br>
             <p>Je n'ai pas de compte  _ <a href="http://localhost/Projet_de_soutenance/Components/inscription.php">s'inscrire</a></p>

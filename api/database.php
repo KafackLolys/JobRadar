@@ -18,8 +18,8 @@ function tryTable(){
   pays varchar(100) NOT NULL,
   tel int NOT NULL,
   description text NOT NULL,
-  prophile text NOT NULL,
-  password varchar(20) NOT NULL
+  profile text NOT NULL,
+  password text NOT NULL
 );
 CREATE TABLE IF NOT EXISTS experiance (
     id INT AUTO_INCREMENT PRIMARY KEY,

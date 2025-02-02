@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -215,7 +218,7 @@ include("Components/header.html");
                             </svg>
                             <b>Entreprise 2</b>
                     </div>
-                    <a href="Components/ajout_entreprise.php"><div class="ajout_exp">+ Ajouter une expérience</div></a>
+                    <a href="Components/ajout_entreprise.php"><div class="ajout_exp">+ Ajouter Une Entreprise</div></a>
                 </div>
             </div>
         </div>

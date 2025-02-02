@@ -43,6 +43,7 @@ if ($count > 0) {
         text-align: center;
         top: 75px;
         color: rgb(0, 129, 52);
+        font-family: Arial, sans-serif;
     }
     </style>
     ";
