@@ -47,7 +47,7 @@ main{
 .frm_ent form .champ #nom{
     padding-left: 7px;
 }
-.frm_ent form .champ #profile{
+.frm_ent form .champ #prophile{
     background-color: #333;
     color: white;
     display: flex;

@@ -18,7 +18,7 @@ function tryTable(){
   pays varchar(100) NOT NULL,
   tel int NOT NULL,
   description text NOT NULL,
-  profile text NOT NULL,
+  prophile text NOT NULL,
   password text NOT NULL
 );
 CREATE TABLE IF NOT EXISTS experiance (

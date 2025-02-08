@@ -47,7 +47,7 @@ main fieldset div:hover {
 }
 
 
-.profile {
+.prophile {
     background-color: white;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -151,6 +151,8 @@ main fieldset div:hover {
 }
 .entreprise .container .list div:hover{
     background-color: #ffe551;
+    cursor: pointer;
+    color: #333;
 }
 
 .entreprise .container .list .ajout_exp{
@@ -164,7 +166,11 @@ main fieldset div:hover {
 .entreprise .container .list div svg{
     margin-right: 5px;
     width: 50px;
-    height: 100%;
+}
+.entreprise .container .list div img{
+    margin-right: 5px;
+    width: 50px;
+    border-radius: 100%;
 }
 .proposition {
     background-color: white;

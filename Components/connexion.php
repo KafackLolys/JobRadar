@@ -12,7 +12,7 @@
 <body>
 <?php
 //header
-include("header.html");
+include("header.php");
 ?>
 <main>
     <form method="POST" action="../api/login.php">

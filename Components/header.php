@@ -29,10 +29,13 @@
     <div id="mySlideBar" class="slide-bar">
         <a class="close" href="javascript:void(0)" class="closebtn" onclick="closeSlideBar()">&times;</a>
         <a class="lien" href="http://localhost/Projet_de_soutenance/index.php">Accueil</a>
+        <a class="lien" href="#">Messagerie</a>
+        <a class="lien" href="#">Abonnement</a>
+        <a class="lien" href="#">Abonner</a>
         <a class="lien" href="#">À propos</a>
         <a class="lien" href="#">Contact</a>
         <a class="lien" href="#">Paramètre</a>
-        <a class="lien" href="#">Déconnexion</a>
+        <a class="lien" href="http://localhost/Projet_de_soutenance/Components/deconnexion.php">Déconnexion</a>
     </div>
 
     <!-- popup -->

@@ -1,5 +1,17 @@
 <?php
+// Démarrer la session
 session_start();
+require_once("api/database.php");
+$pdo = getConnexion();
+tryTable();
+// Vérifier si la variable de session existe
+if (isset($_SESSION['user_job'])) {
+    $user = $_SESSION['user_job'];
+} else {
+    echo "<script>
+        console.log('Aucune information utilisateur disponible.')
+        </script>";
+}
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -15,30 +27,12 @@ session_start();
 <body>
 <?php
 //header
-include("Components/header.html");
+include("Components/header.php");
 ?>
 <main>
-    <div class="profile">
-        <div class="container">
-                <svg width="50px" height="49px" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                        d="M8 7C9.65685 7 11 5.65685 11 4C11 2.34315 9.65685 1 8 1C6.34315 1 5 2.34315 5 4C5 5.65685 6.34315 7 8 7Z"
-                        fill="#000000" />
-                    <path d="M14 12C14 10.3431 12.6569 9 11 9H5C3.34315 9 2 10.3431 2 12V15H14V12Z" fill="#000000" />
-                </svg>
-            <h3>Nom</h3>
-            <p style="color: gray; font-size:12px;">Pays</p>
-            <br>
-            <p>Nous recherchons un développeur web talentueux pour rejoindre notre équipe dynamique.</p>
-            <fieldset>
-                <legend>Expérience</legend>
-                <div>BTS en Topographie</div>
-                <div>Master en .......</div>
-                <div>Licence en ......</div>
-                <div style="background-color: #e9e9e9;">+ Ajouter une expérience</div>
-            </fieldset>
-        </div>
-    </div>
+    <?php
+    include("Components/Accueil/infoUser.php");//prophile
+    ?>
     <div style="display:flex; flex-direction:column;width: 600px;">
         <div class="publication">
             <h2 style="margin: 20px 0px 0px 20px;">Annonce</h2>
@@ -196,32 +190,9 @@ include("Components/header.html");
     </div>
     
     <div style="display:flex; flex-direction:column;">
-        <div class="entreprise">
-            <div class="container">
-                <h3>Entreprise</h3>
-                <br>
-                <div class="list">
-                    <div><svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M8 7C9.65685 7 11 5.65685 11 4C11 2.34315 9.65685 1 8 1C6.34315 1 5 2.34315 5 4C5 5.65685 6.34315 7 8 7Z"
-                                    fill="#000000" />
-                                <path d="M14 12C14 10.3431 12.6569 9 11 9H5C3.34315 9 2 10.3431 2 12V15H14V12Z" fill="#000000" />
-                            </svg>
-                            <b>Entreprisesdfdsfdsfdsdsfdsfds asdsadsadsada 1</b>
-                        </div>
-                    <div>
-                        <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M8 7C9.65685 7 11 5.65685 11 4C11 2.34315 9.65685 1 8 1C6.34315 1 5 2.34315 5 4C5 5.65685 6.34315 7 8 7Z"
-                                    fill="#000000" />
-                                <path d="M14 12C14 10.3431 12.6569 9 11 9H5C3.34315 9 2 10.3431 2 12V15H14V12Z" fill="#000000" />
-                            </svg>
-                            <b>Entreprise 2</b>
-                    </div>
-                    <a href="Components/ajout_entreprise.php"><div class="ajout_exp">+ Ajouter Une Entreprise</div></a>
-                </div>
-            </div>
-        </div>
+        <?php
+        include("Components/Accueil/entrepriseUser.php");//entreprise
+        ?>
         <div class="proposition">
             <div class="container">
                 <h3>Suggestions</h3>

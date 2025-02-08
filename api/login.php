@@ -20,7 +20,7 @@ if (isset($_POST['email']) && isset($_POST['mdp'])) {
             // Authentification réussie
             unset($user['password']);//exclut le mot de passe
             $_SESSION['user_job'] = $user;
-            echo "<h1 class='msg_reussite'>Heure de vous revoir !</h1>
+            echo "<h1 class='msg_reussite'>Heureus de vous revoir !</h1>
             <style>
                 .msg_reussite{
                 position: absolute;

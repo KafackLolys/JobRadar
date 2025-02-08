@@ -14,14 +14,14 @@
 <body>
     <?php
     //header
-    include("header.html");
+    include("header.php");
     ?>
     <main>
         <div class="frm_ent">
-            <form action="" method="post">
+            <form action="../api/saveEntreprise.php" method="post" enctype="multipart/form-data">
                 <div class="champ">
-                    <label for="profile">Porphile (facultatif)</label>
-                    <input type="file" name="profile" id="profile">
+                    <label for="prophile">Prophile (facultatif)</label>
+                    <input type="file" name="prophile" id="prophile">
                 </div>
                 <div class="champ">
                     <label for="nom">Nom de l'entreprise</label>
@@ -29,7 +29,7 @@
                 </div>
                 <div class="champ">
                     <label for="description">Description</label>
-                    <textarea name="" id="description" placeholder='Description' required></textarea>
+                    <textarea name="description" id="description" placeholder='Description' required></textarea>
                 </div>
                 <div>
                     <button type="submit">Enregistrer l'entreprise</button>
