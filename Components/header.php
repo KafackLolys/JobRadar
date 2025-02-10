@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-
-<body>
-
+<header>
     <div class="navbar">
         <a href="http://localhost/Projet_de_soutenance/index.php" class="logo">Job Radar</a>
         <input required type="search" class="champ_recherche" placeholder="Rechercher...">
@@ -44,7 +35,14 @@
             <span class="close" id="close">&times;</span>
             <br>
             <br>
-            <a href="http://localhost/Projet_de_soutenance/Components/Connexion.php"><button>Connexion</button></a>
+            <?php
+                // Vérifier si la variable de session existe
+                if (isset($_SESSION['user_job'])) {
+                    echo"<a href='http://localhost/Projet_de_soutenance/Components/Connexion.php'><button>Changer de compte</button></a>";
+                } else {
+                    echo"<a href='http://localhost/Projet_de_soutenance/Components/Connexion.php'><button>Se connecter</button></a>";
+                }
+            ?>
             <br>
             <a href="http://localhost/Projet_de_soutenance/Components/inscription.php"><button>Inscription</button></a>
         </div>
@@ -78,6 +76,4 @@
             document.getElementById("mySlideBar").style.width = "0";
         }
     </script>
-</body>
-
-</html>
+</header>
