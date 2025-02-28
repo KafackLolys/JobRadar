@@ -40,8 +40,8 @@
         </div>
     </main>
     <?php
-    //footer
-    include("./footer.html");
+    //footer 
+    include("footer.html");
     ?>
     <script src="../script/ajout_entreprise.js"></script>
 </body>

@@ -4,7 +4,7 @@ if (isset($_SESSION['user_job'])) {
     $user = $_SESSION['user_job'];
     //expériance
     
-    $stmt = $pdo->prepare("SELECT titre FROM experiance WHERE id_user = :id_user");
+    $stmt = $pdo->prepare("SELECT id, titre FROM experiance WHERE id_user = :id_user");
     $stmt->bindParam(':id_user', $user["id"]);
     $stmt->execute();
     $experiance = $stmt->fetchAll(PDO::FETCH_ASSOC);
@@ -16,7 +16,7 @@ if (isset($_SESSION['user_job'])) {
             }
             else {
                 echo "
-                    <svg width='50px' height='49px' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                <svg width='50px' height='49px' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'>
                     <path
                         d='M8 7C9.65685 7 11 5.65685 11 4C11 2.34315 9.65685 1 8 1C6.34315 1 5 2.34315 5 4C5 5.65685 6.34315 7 8 7Z'
                         fill='#000000' />
@@ -29,13 +29,13 @@ if (isset($_SESSION['user_job'])) {
             <br>
             <p>$user[description] ...</p>
             <fieldset>
-                <legend>Expérience</legend>
+                <legend>Expériance</legend>
         ";
                 foreach ($experiance as $row) {
-                    echo"<div>$row[titre]</div>";
+                    echo"<a href='Components/Presentation/experiance.php?id_exp=$row[id]'><div>$row[titre]</div></a>";
                 }
                 
-    echo"       <a href='Components/ajout_experience.php'><div style='background-color: #e9e9e9;'>+ Ajouter une expérience</div></a>
+    echo"       <a href='Components/ajout_experiance.php'><div style='background-color: #e9e9e9;'>+ Ajouter une expériance</div></a>
             </fieldset>
         </div>
     </div>

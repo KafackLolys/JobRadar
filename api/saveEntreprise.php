@@ -7,7 +7,7 @@ tryTable();
 $user = $_SESSION['user_job'];
 $id_user = $user["id"];
 
-if (isset($id_user, $_POST['nom'], $_POST['description'], $_FILES['prophile'])) {
+if (isset($id_user, $_POST['nom'], $_POST['description'], $_FILES['prophile'])) {//verifier si les champs sont renseigner
     $nom = $_POST['nom'];
     $description = $_POST['description'];
     $prophile = $_FILES['prophile'];
@@ -20,7 +20,7 @@ if (isset($id_user, $_POST['nom'], $_POST['description'], $_FILES['prophile'])) 
     $count = $stmt->fetchColumn();
 
     if ($count > 0) {
-        echo "<p class='msg_user_exist'>Une de vos entreprises porte déjà ce nom !</p>";
+        echo "<p class='msg_en_exist'>Une de vos entreprises porte déjà ce nom !</p>";
         include("../Components/ajout_entreprise.php");
     } else {
         $sql = "INSERT INTO entreprise (id_user, nom, description) VALUES (:id_user, :nom, :description)";

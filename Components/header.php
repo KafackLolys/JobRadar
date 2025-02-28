@@ -38,6 +38,7 @@
             <?php
                 // Vérifier si la variable de session existe
                 if (isset($_SESSION['user_job'])) {
+                    echo"<a href='http://localhost/Projet_de_soutenance/Components/Profile/index.php'><button>Mon Compte</button></a>";
                     echo"<a href='http://localhost/Projet_de_soutenance/Components/Connexion.php'><button>Changer de compte</button></a>";
                 } else {
                     echo"<a href='http://localhost/Projet_de_soutenance/Components/Connexion.php'><button>Se connecter</button></a>";

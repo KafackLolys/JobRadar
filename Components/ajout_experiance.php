@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style></style>
-    <link rel="stylesheet" href="../style/experience.css">
+    <link rel="stylesheet" href="../style/experiance.css">
     <link rel="stylesheet" href="../style/header.css">
     <link rel="stylesheet" href="../style/footer.css">
     <title>Créer une entreprise</title>
@@ -17,12 +17,12 @@
     include("header.php");
     ?>
     <main>
-        <form class="all">
+        <form class="all"  action="../api/saveexperiance.php" method="POST" enctype="multipart/form-data">
             <div style="background-color: #333; color: white; padding: 10px">
-                <h1>Ajouter une experience</h1>
+                <h1>Ajouter une experiance</h1>
             </div>
             <div class="frm_ent">
-                <div class="p1" action="../api/saveEntreprise.php" method="post" enctype="multipart/form-data">
+                <div class="p1">
                     <div class="champ">
                         <label for="titre">Titre</label>
                         <input type="text" id="titre" name="titre" required>
@@ -41,34 +41,34 @@
                             <img id="imagePreview" src="#" alt="Prévisualisation de l'image" style="display: none; max-width: 100px; max-height: 100px;">
                         </div>
                         <div id="champ_i" style="display: none;">
-                            <input type="text" name="nom_i" placeholder="Titre de l'image" required>
-                            <textarea name="description_i" id="description_i" placeholder="Description  de l'image" required></textarea>
+                            <input type="text" name="titre_i" placeholder="Titre de l'image">
+                            <textarea name="description_i" id="description_i" placeholder="Description  de l'image"></textarea>
                         </div>
                     </div>
                     <div class="champ">
-                        <label for="image">Document (Taille maximale de 2 Mo)</label>
+                        <label for="document">Document (Taille maximale de 2 Mo)</label>
                         <div style="display: flex;">
-                            <input type="file" name="document" accept=".doc, .docx, .pdf, .txt" onchange="previewFile()" id="doc">
+                            <input type="file" name="document" accept=".doc, .docx, .pdf, .txt, .rtf, .html, .odt, .xml, .csv, .json, .md" onchange="previewFile()" id="doc">
                             <div id="image_svg"></div>
                         </div>
                         <div id="champ_d" style="display: none;">
-                            <input type="text" name="nom_d" placeholder="Titre du document" required>
-                            <textarea name="description_d" id="description_i" placeholder="Description du document" required></textarea>
+                            <input type="text" name="titre_d" placeholder="Titre du document">
+                            <textarea name="description_d" id="description_d" placeholder="Description du document"></textarea>
                         </div>
                     </div>
 
                 </fieldset>
             </div>
             <div>
-                <button type="submit">Enregistrer l'entreprise</button>
+                <button type="submit">Enregistrer l'experiance</button>
             </div>
         </form>
     </main>
     <?php
-    //footer
-    include("./footer.html");
+    //footer 
+    include("footer.html");
     ?>
-    <script src="../script/ajout_experience.js"></script>
+    <script src="../script/ajout_experiance.js"></script>
 </body>
 
 </html>

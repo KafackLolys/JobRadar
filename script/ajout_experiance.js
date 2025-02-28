@@ -2,6 +2,8 @@ function previewImage() {
     var file = document.getElementById('image').files[0];
     var preview = document.getElementById('imagePreview');
     var champ_i = document.getElementById('champ_i');
+    var titre_i = document.querySelector('input[name="titre_i"]');
+    var description_i = document.querySelector('textarea[name="description_i"]');
     var reader = new FileReader();
 
     reader.onloadend = function () {
@@ -9,6 +11,8 @@ function previewImage() {
         preview.style.display = 'block';
         champ_i.style.display = 'flex';
         champ_i.style.flexDirection = 'column';
+        titre_i.required = true;
+        description_i.required = true;
     }
 
     if (file) {
@@ -17,6 +21,8 @@ function previewImage() {
         preview.src = '#';
         preview.style.display = 'none';
         champ_i.style.display = 'none';
+        titre_i.required = false;
+        description_i.required = false;
     }
 }
 
@@ -26,6 +32,8 @@ function previewFile() {
     const maxSize = 2 * 1024 * 1024; // Taille maximale de 2 Mo
     let svgData = "";
     var champ_d = document.getElementById('champ_d');
+    var titre_d = document.querySelector('input[name="titre_d"]');
+    var description_d = document.querySelector('textarea[name="description_d"]');
     var reader = new FileReader();
 
     if (file && file.size > maxSize) {
@@ -61,6 +69,8 @@ function previewFile() {
         document.getElementById("image_svg").innerHTML = svgData;
         champ_d.style.display = 'flex';
         champ_d.style.flexDirection = 'column';
+        titre_d.required = true;
+        description_d.required = true;
     };
 
     if (file) {
@@ -68,6 +78,8 @@ function previewFile() {
     } else {
         document.getElementById("image_svg").innerHTML = "";
         champ_d.style.display = 'none';
+        titre_d.required = false;
+        description_d.required = false;
     }
 }
 

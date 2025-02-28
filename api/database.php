@@ -45,7 +45,7 @@ CREATE TABLE IF NOT EXISTS experiance (
     titre varchar(100) NOT NULL,
     description text NOT NULL,
     type varchar(100) NOT NULL,
-    element text NOT NULL,
+    element text NOT NULL
     foreign key(id_experiance) references experiance(id),
     foreign key(id_entreprise) references entreprise(id)
   );

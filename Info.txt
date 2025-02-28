@@ -6,3 +6,6 @@ mdp_app:aees jfre rqom qeed
 
 //Technologie utiliser
 -Composer: pour l'envoie de mail
+
+Moteur de stockage utiliser: Innodb
+Avantage et inconvenient

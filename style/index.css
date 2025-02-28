@@ -10,6 +10,7 @@ main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: flex-start;
     justify-content: center;
     background-color: #F0F0F0;
     
@@ -57,10 +58,10 @@ main fieldset div:hover {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin: 10px;
     width: 250px;
-    height: 400px;
     overflow: hidden;
     transition: 0.5s;
     padding: 20px;
+    
 }
 .publication {
     background-color: white;

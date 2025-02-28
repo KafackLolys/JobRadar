@@ -1,0 +1,214 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    background-color: #F0F0F0;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    color: #333;;
+    padding: 20px;
+}
+main hr{
+    margin: 20px;
+}
+main p{
+    overflow-wrap: break-word;/* pour que le texte s'adapte à son conteneur */
+}
+main a{
+    color: #88781f;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 1s;
+}
+main a:hover{
+    background-color: #333;
+    color: #ffd700;
+}
+main .contenu{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+main .contenu .c1{
+    display: flex;
+    flex-direction: column;
+}
+main .contenu .c2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: flex-start;
+}
+main .contenu .c2 .part{
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 2px 2px 2px rgba(128, 128, 128, 0.397);
+    border: solid rgba(128, 128, 128, 0.463) 1px;
+    border-radius: 8px;
+}
+main .contenu .c2 .p1{
+    width: 50%;
+}
+main .contenu .c2 .p1 img{
+    width: 100%;
+}
+main .contenu .c2 .p2 .ext{
+    background-color: #333;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    width: 100%;
+    height: 270px;
+}
+main .contenu .c2 .p2{
+    flex: 1;/*attribut le reste de la longueur*/
+    
+}
+main .contenu h1{
+    margin-bottom: 20px;
+}
+main .opp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+main .opp .edit{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: dimgrey;
+    border: solid rgba(128, 128, 128, 0.445) 1px;
+    background-color: #fbff0017;
+}
+main .opp .delete{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: rgba(255, 0, 0, 0.597);
+}
+main .opp .delete:hover{
+    background-color: #ff000015;
+}
+/*edit form*/
+.form_edit {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.625);
+    z-index: 40;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form_content {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 5px;
+}
+.frm_ent{
+    text-align: start;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+.frm_ent .p1{
+    margin-top: 10px;
+}
+.frm_ent .p1 .champ{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.frm_ent .p1 .champ textarea{
+    margin-left: 20px;
+    height: 500px;
+    height: 100px;
+    font-size: 15px;
+    padding: 15px;
+    resize: none;
+}
+.frm_ent .p1 .champ input{
+    border-radius: 5px;
+    height: 40px;
+    font-size: 17px;
+}
+.frm_ent .p1 #titre{
+    padding-left: 7px;
+}
+.frm_ent .p1 .champ #prophile{
+    background-color: #333;
+    color: white;
+    display: flex;
+    border: none;
+}
+main button{
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ffd700;
+    font-style: oblique;
+    font-weight: bold;
+    transition: 0.3s;
+}
+main button:hover{
+    box-shadow: 3px 3px 3px #09ff0066;  
+}
+main .p2{
+    
+    min-height: 200px;
+    margin-left: 20px;
+}
+fieldset{
+    margin-top: 10px;
+    padding: 20px;
+}
+fieldset input{
+    margin: 10px 0px 10px 0px;
+}
+fieldset input, textarea{
+    padding: 2px 2px 2px 5px;
+}
+fieldset #image, #doc{
+    width: 150px;
+}
+.msg_ex_exist{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 75px;
+    color: rgb(210, 62, 3);
+    
+    font-size: 20px;
+}
+#close_form{
+    background-color: #d1d1d1;
+    color: #2e3500;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#close_form b{
+    color: red;
+}
