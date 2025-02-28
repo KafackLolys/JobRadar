@@ -1,6 +1,10 @@
 <?php
 
 session_start();
+if (!$_SESSION['user_job']) {
+    header("Location: ../index.php");
+    exit();
+}
 // File
 require_once("../../api/database.php");
 

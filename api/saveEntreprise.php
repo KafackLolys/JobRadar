@@ -1,5 +1,9 @@
 <?php
 session_start();
+if (!$_SESSION['user_job']) {
+    header("Location: ../index.php");
+    exit();
+}
 require_once("./database.php");
 $pdo = getConnexion();
 tryTable();

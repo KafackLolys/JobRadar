@@ -1,3 +1,9 @@
+<?php
+if (!$_SESSION['user_job']) {
+    header("Location: ../index.php");
+    exit();
+}
+?>
 <!DOCTYPE html>
 <html lang="fr">
 
