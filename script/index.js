@@ -1,17 +1,27 @@
+function validateForm() {
+    const titre = document.querySelector('input[name="titre"]').value;
+    const description = document.querySelector('textarea[name="description"]').value;
+
+    if (!titre || !description) {
+        alert("Veuillez remplir tous les champs.");
+        return false;
+    }
+
+    return true;
+}
+
 function previewImage() {
-    var file = document.getElementById('image_pub').files[0];
-    var preview = document.getElementById('imagePreview');
-    var reader = new FileReader();
+    const file = document.getElementById('image_pub').files[0];
+    const preview = document.getElementById('imagePreview');
+    const reader = new FileReader();
 
     reader.onloadend = function () {
         preview.src = reader.result;
-        preview.style.display = 'block';
-    }
+    };
 
     if (file) {
         reader.readAsDataURL(file);
     } else {
-        preview.src = '#';
-        preview.style.display = 'none';
+        preview.src = "";
     }
 }
