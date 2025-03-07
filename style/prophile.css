@@ -1,6 +1,6 @@
 /* a modifier*/
 svg {
-    border-radius: 50px;
+    border-radius: 50%;
     background-color: #666;
 }
 
@@ -22,7 +22,7 @@ main button {
     cursor: pointer;
 }
 
-main fieldset {
+main .conten_exp {
     margin-top: 10px;
     border-radius: 5px;
     display: flex;
@@ -36,11 +36,9 @@ h2 {
     color: #333;
 }
 
-main fieldset legend {
-    color: #333;
-}
 
-main fieldset div {
+
+main .conten_exp div {
     background-color: #cef8d7;
     margin: 5px;
     padding: 5px;
@@ -52,7 +50,7 @@ main fieldset div {
     color: #333;
 }
 
-main fieldset div:hover {
+main .conten_exp div:hover {
     opacity: 70%;
 }
 
@@ -67,20 +65,24 @@ main fieldset div:hover {
     overflow: hidden;
     transition: 0.5s;
     padding: 20px;
-    color: #333333;
-
 }
-.prophile .prophile_img{
-    width: 50px;
-    height: 50px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.container .img{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.container .img .type_img{
+    margin: 20px;
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
-
+    background-color: #ffffff;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.publication {
+.info_compte {
     background-color: white;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -90,13 +92,13 @@ main fieldset div:hover {
     margin-bottom: 10px;
 }
 
-.publication .container {
+.info_compte .container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 
-.publication .container input {
+.info_compte .container input {
     width: 100%;
     margin-left: 10px;
     margin-right: 20px;
@@ -107,7 +109,7 @@ main fieldset div:hover {
     color: #333;
 }
 
-.publication .container textarea {
+.info_compte .container textarea {
     margin-left: 20px;
     width: 90%;
     height: 100px;
@@ -115,7 +117,7 @@ main fieldset div:hover {
     padding: 15px;
 }
 
-.publication .container .btn_annonce {
+.info_compte .container .btn_annonce {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -130,16 +132,8 @@ main fieldset div:hover {
     background-color: #666;
     color: white;
 }
-.publication .container .type_img {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 28px;
-    height: 28px;
-    border-radius: 50%;
-}
 
-.publication .container .btn_pub {
+.info_compte .container .btn_pub {
     padding: 10px;
     margin-left: 20px;
     margin-bottom: 10px;
@@ -153,7 +147,7 @@ main fieldset div:hover {
     transition: 0.3s;
 }
 
-.publication .container .btn_pub:hover {
+.info_compte .container .btn_pub:hover {
     box-shadow: 3px 3px 3px #aff1bab5;
 }
 
@@ -226,44 +220,6 @@ main fieldset div:hover {
     background-repeat: no-repeat;
 }
 
-.proposition {
-    background-color: white;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin: 10px;
-    width: 300px;
-    overflow: hidden;
-    transition: 0.5s;
-    padding: 20px;
-}
-
-.proposition .container .list {
-    display: flex;
-    flex-direction: column;
-}
-
-.proposition .container .list div {
-    margin-bottom: 10px;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    padding-left: 15px;
-
-}
-
-.proposition .container .list svg {
-    border-radius: 50px;
-    background-color: #666;
-}
-
-.proposition .container .list button {
-    margin-top: 10px;
-    padding: 10px;
-    border-radius: 25px;
-    font-size: 15px;
-    border: solid #ffd700 2px;
-}
 
 .new_pub {
     margin-top: 10px;
@@ -296,4 +252,18 @@ main fieldset div:hover {
 .new_pub p {
     margin: 0;
     color: #666;
+}
+/*edit photo de prophile*/
+#edit_photo_prophile {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.625);
+    z-index: 40;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

@@ -1,3 +1,11 @@
+<?php
+// Set headers to prevent caching
+header("Expires: Tue, 01 Jan 2000 00:00:00 GMT"); // Expiration de la cache
+header("Last-Modified: " . gmdate("D, d M Y H:i:s") . " GMT"); // Dernière modification
+header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0"); // Contrôle de la cache
+header("Cache-Control: post-check=0, pre-check=0", false); // Contrôle de la cache
+header("Pragma: no-cache"); // Pragma pour la cache
+?>
 <header>
     <div class="navbar">
         <a href="http://localhost/Projet_de_soutenance/index.php" class="logo">Job Radar</a>
@@ -38,7 +46,7 @@
             <?php
                 // Vérifier si la variable de session existe
                 if (isset($_SESSION['user_job'])) {
-                    echo"<a href='http://localhost/Projet_de_soutenance/Components/Profile/index.php'><button>Mon Compte</button></a>";
+                    echo"<a href='http://localhost/Projet_de_soutenance/Components/Prophile/prophile.php'><button>Mon Compte</button></a>";
                     echo"<a href='http://localhost/Projet_de_soutenance/Components/Connexion.php'><button>Changer de compte</button></a>";
                 } else {
                     echo"<a href='http://localhost/Projet_de_soutenance/Components/Connexion.php'><button>Se connecter</button></a>";

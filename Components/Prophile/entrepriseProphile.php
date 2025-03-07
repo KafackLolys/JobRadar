@@ -15,14 +15,14 @@ if (isset($_SESSION['user_job'])) {
             <br>
             <div class='list'>";
                 foreach ($entreprise as $row) {
-            echo "<a href='Components/Presentation/entreprise.php?id_ent=$row[id]'>
+            echo "<a href='../Presentation/entreprise.php?id_ent=$row[id]'>
                     <div class='row'>";
                 if ($row["prophile"]) {
-                    echo "<div class='cadre_image'style='background-image: url(../Projet_de_soutenance/public/entreprises/$row[prophile]);'>
+                    echo "<div class='cadre_image'style='background-image: url(../../public/entreprises/$row[prophile]);'>
                           </div>";
                 }
                 else {
-                    echo "<div class='cadre_image' style='background-image: url(../Projet_de_soutenance/public/entreprises/entreprise_logo.png);'>
+                    echo "<div class='cadre_image' style='background-image: url(../../public/entreprises/entreprise_logo.png);'>
                           </div>";
 
                 }
@@ -32,7 +32,7 @@ if (isset($_SESSION['user_job'])) {
                   </a>";
                 }
                 echo "  
-                    <a href='Components/ajout_entreprise.php'><div class='ajout_exp'>+ Ajouter Une Entreprise</div></a>
+                    <a href='../ajout_entreprise.php'><div class='ajout_exp'>+ Ajouter Une Entreprise</div></a>
                 </div>
             </div>
         </div>";

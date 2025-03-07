@@ -1,8 +1,5 @@
 <?php
-if (!$_SESSION['user_job']) {
-    header("Location: ../index.php");
-    exit();
-}
+
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -28,7 +25,7 @@ if (!$_SESSION['user_job']) {
                 <div class="champ">
                     <label for="prophile">Prophile (facultatif)</label>
                     <input type="file" name="prophile" accept="image/*" onchange="previewImage();" id="prophile">
-                    <img id="imagePreview" src="#" alt="Prévisualisation de l'image" style="display: none; max-width: 200px; max-height: 200px;">
+                    <img id="imagePreview" src="#" alt="Prévisualisation de l'image" style="display: none; max-width: 200px;">
                 </div>
                 <div class="champ">
                     <label for="nom">Nom de l'entreprise</label>

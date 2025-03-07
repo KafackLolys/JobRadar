@@ -41,6 +41,7 @@ $stmt = $pdo->prepare("SELECT * FROM piece_jointe WHERE id_experiance = :id_exp"
     ?>
     <main>
        <div class="contenu">
+            <div class="c">_ Expériance _</div>
             <div class="c1">
                 <h1><u><?php echo"$exp[titre]"; ?></u></h1>
                 <p><u>Description</u>: <?php echo" $exp[description]"; ?></p>
