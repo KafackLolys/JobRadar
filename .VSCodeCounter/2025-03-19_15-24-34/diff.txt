@@ -1,0 +1,206 @@
+Date : 2025-03-19 15:24:34
+Directory : c:\xampp\htdocs\JobRadar
+Total : 136 files,  3402 codes, 189 comments, 327 blanks, all 3918 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| CSS        |         31 |      1,682 |         61 |        138 |      1,881 |
+| PHP        |         75 |      1,372 |         84 |        156 |      1,612 |
+| JavaScript |         21 |        246 |         44 |         29 |        319 |
+| HTML       |          9 |        102 |          0 |          4 |        106 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                            | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                               |        136 |      3,402 |        189 |        327 |      3,918 |
+| . (Files)                                                                       |          2 |        -33 |          0 |          3 |        -30 |
+| Components                                                                      |         37 |      1,012 |         26 |         72 |      1,110 |
+| Components (Files)                                                              |          7 |        -88 |         -5 |        -10 |       -103 |
+| Components\Accueil                                                              |          2 |       -103 |         -4 |         -4 |       -111 |
+| Components\Presentation                                                         |          2 |       -366 |        -20 |        -30 |       -416 |
+| Components\Profile                                                              |          1 |        -93 |         -6 |         -8 |       -107 |
+| Components\Prophile                                                             |          3 |       -299 |         -8 |        -16 |       -323 |
+| Components\chomeur                                                              |         13 |      1,208 |         48 |         81 |      1,337 |
+| Components\chomeur (Files)                                                      |          5 |        347 |         10 |         23 |        380 |
+| Components\chomeur\Accueil                                                      |          2 |        103 |          4 |          4 |        111 |
+| Components\chomeur\Presentation                                                 |          2 |        366 |         20 |         30 |        416 |
+| Components\chomeur\Profile                                                      |          1 |         93 |          6 |          8 |        107 |
+| Components\chomeur\Prophile                                                     |          3 |        299 |          8 |         16 |        323 |
+| Components\employeur                                                            |          9 |        753 |         21 |         59 |        833 |
+| Components\employeur (Files)                                                    |          4 |        383 |         10 |         27 |        420 |
+| Components\employeur\Accueil                                                    |          2 |         55 |          0 |          5 |         60 |
+| Components\employeur\Presentation                                               |          1 |        195 |          5 |         17 |        217 |
+| Components\employeur\Profile                                                    |          1 |         93 |          6 |          8 |        107 |
+| Components\employeur\Prophile                                                   |          1 |         27 |          0 |          2 |         29 |
+| api                                                                             |         43 |        497 |         58 |         85 |        640 |
+| api (Files)                                                                     |         12 |       -243 |        -35 |        -12 |       -290 |
+| api\annonce                                                                     |          2 |        -48 |        -12 |        -14 |        -74 |
+| api\chomeur                                                                     |          9 |        458 |         58 |         58 |        574 |
+| api\chomeur (Files)                                                             |          6 |        334 |         40 |         37 |        411 |
+| api\chomeur\annonce                                                             |          2 |         48 |         12 |         14 |         74 |
+| api\chomeur\prophile                                                            |          1 |         76 |          6 |          7 |         89 |
+| api\employeur                                                                   |         14 |        710 |         71 |         92 |        873 |
+| api\employeur (Files)                                                           |          6 |        285 |         35 |         34 |        354 |
+| api\employeur\annonce                                                           |          2 |         48 |         12 |         14 |         74 |
+| api\employeur\entreprise                                                        |          5 |        307 |         18 |         37 |        362 |
+| api\employeur\prophile                                                          |          1 |         70 |          6 |          7 |         83 |
+| api\entreprise                                                                  |          5 |       -304 |        -18 |        -32 |       -354 |
+| api\prophile                                                                    |          1 |        -76 |         -6 |         -7 |        -89 |
+| public                                                                          |          2 |         -2 |          0 |          0 |         -2 |
+| public\documents                                                                |          2 |         -2 |          0 |          0 |         -2 |
+| script                                                                          |         21 |        246 |         44 |         29 |        319 |
+| script (Files)                                                                  |          9 |       -384 |        -34 |        -53 |       -471 |
+| script\chomeur                                                                  |          6 |        315 |         39 |         41 |        395 |
+| script\employeur                                                                |          6 |        315 |         39 |         41 |        395 |
+| style                                                                           |         31 |      1,682 |         61 |        138 |      1,881 |
+| style (Files)                                                                   |         13 |     -1,209 |         -8 |       -125 |     -1,342 |
+| style\chomeur                                                                   |          9 |      1,453 |         35 |        134 |      1,622 |
+| style\employeur                                                                 |          9 |      1,438 |         34 |        129 |      1,601 |
++---------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                        | language   | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\xampp\htdocs\JobRadar\Components\Accueil\entrepriseUser.php                  | PHP        |        -47 |         -2 |         -2 |        -51 |
+| c:\xampp\htdocs\JobRadar\Components\Accueil\infoUser.php                        | PHP        |        -56 |         -2 |         -2 |        -60 |
+| c:\xampp\htdocs\JobRadar\Components\Presentation\entreprise.php                 | PHP        |       -203 |         -7 |        -18 |       -228 |
+| c:\xampp\htdocs\JobRadar\Components\Presentation\experiance.php                 | PHP        |       -163 |        -13 |        -12 |       -188 |
+| c:\xampp\htdocs\JobRadar\Components\Profile\index.php                           | PHP        |        -93 |         -6 |         -8 |       -107 |
+| c:\xampp\htdocs\JobRadar\Components\Prophile\entrepriseProphile.php             | PHP        |        -47 |         -2 |         -2 |        -51 |
+| c:\xampp\htdocs\JobRadar\Components\Prophile\infoExperiance.php                 | PHP        |        -21 |         -2 |         -4 |        -27 |
+| c:\xampp\htdocs\JobRadar\Components\Prophile\prophile.php                       | PHP        |       -231 |         -4 |        -10 |       -245 |
+| c:\xampp\htdocs\JobRadar\Components\ajout_entreprise.php                        | PHP        |        -46 |         -2 |         -4 |        -52 |
+| c:\xampp\htdocs\JobRadar\Components\ajout_experiance.php                        | PHP        |        -68 |         -2 |         -5 |        -75 |
+| c:\xampp\htdocs\JobRadar\Components\chomeur\Accueil\entrepriseUser.php          | PHP        |         47 |          2 |          2 |         51 |
+| c:\xampp\htdocs\JobRadar\Components\chomeur\Accueil\infoUser.php                | PHP        |         56 |          2 |          2 |         60 |
+| c:\xampp\htdocs\JobRadar\Components\chomeur\Presentation\entreprise.php         | PHP        |        203 |          7 |         18 |        228 |
+| c:\xampp\htdocs\JobRadar\Components\chomeur\Presentation\experiance.php         | PHP        |        163 |         13 |         12 |        188 |
+| c:\xampp\htdocs\JobRadar\Components\chomeur\Profile\index.php                   | PHP        |         93 |          6 |          8 |        107 |
+| c:\xampp\htdocs\JobRadar\Components\chomeur\Prophile\entrepriseProphile.php     | PHP        |         47 |          2 |          2 |         51 |
+| c:\xampp\htdocs\JobRadar\Components\chomeur\Prophile\infoExperiance.php         | PHP        |         21 |          2 |          4 |         27 |
+| c:\xampp\htdocs\JobRadar\Components\chomeur\Prophile\prophile.php               | PHP        |        231 |          4 |         10 |        245 |
+| c:\xampp\htdocs\JobRadar\Components\chomeur\ajout_entreprise.php                | PHP        |         46 |          2 |          4 |         52 |
+| c:\xampp\htdocs\JobRadar\Components\chomeur\ajout_experiance.php                | PHP        |         68 |          2 |          5 |         75 |
+| c:\xampp\htdocs\JobRadar\Components\chomeur\footer.html                         | HTML       |         31 |          0 |          0 |         31 |
+| c:\xampp\htdocs\JobRadar\Components\chomeur\header.php                          | PHP        |         76 |          2 |          8 |         86 |
+| c:\xampp\htdocs\JobRadar\Components\chomeur\index.php                           | PHP        |        126 |          4 |          6 |        136 |
+| c:\xampp\htdocs\JobRadar\Components\employeur\Accueil\entrepriseUser.php        | PHP        |         29 |          0 |          2 |         31 |
+| c:\xampp\htdocs\JobRadar\Components\employeur\Accueil\infoEmployeur.php         | PHP        |         26 |          0 |          3 |         29 |
+| c:\xampp\htdocs\JobRadar\Components\employeur\Presentation\entreprise.php       | PHP        |        195 |          5 |         17 |        217 |
+| c:\xampp\htdocs\JobRadar\Components\employeur\Profile\index.php                 | PHP        |         93 |          6 |          8 |        107 |
+| c:\xampp\htdocs\JobRadar\Components\employeur\Prophile\entrepriseProphile.php   | PHP        |         27 |          0 |          2 |         29 |
+| c:\xampp\htdocs\JobRadar\Components\employeur\ajout_entreprise.php              | PHP        |         46 |          2 |          4 |         52 |
+| c:\xampp\htdocs\JobRadar\Components\employeur\footer.html                       | HTML       |         31 |          0 |          0 |         31 |
+| c:\xampp\htdocs\JobRadar\Components\employeur\header.php                        | PHP        |        103 |          5 |         11 |        119 |
+| c:\xampp\htdocs\JobRadar\Components\employeur\index.php                         | PHP        |        203 |          3 |         12 |        218 |
+| c:\xampp\htdocs\JobRadar\Components\footer.html                                 | HTML       |        -31 |          0 |          0 |        -31 |
+| c:\xampp\htdocs\JobRadar\Components\footer_general.html                         | HTML       |         31 |          0 |          0 |         31 |
+| c:\xampp\htdocs\JobRadar\Components\header.php                                  | PHP        |        -76 |         -2 |         -8 |        -86 |
+| c:\xampp\htdocs\JobRadar\Components\header_general.php                          | PHP        |         75 |          2 |          8 |         85 |
+| c:\xampp\htdocs\JobRadar\Components\inscription.php                             | PHP        |         27 |         -1 |         -1 |         25 |
+| c:\xampp\htdocs\JobRadar\api\annonce\add_annonce.php                            | PHP        |        -38 |        -12 |        -12 |        -62 |
+| c:\xampp\htdocs\JobRadar\api\annonce\selectAllAnnonce.php                       | PHP        |        -10 |          0 |         -2 |        -12 |
+| c:\xampp\htdocs\JobRadar\api\chomeur\annonce\add_annonce.php                    | PHP        |         38 |         12 |         12 |         62 |
+| c:\xampp\htdocs\JobRadar\api\chomeur\annonce\selectAllAnnonce.php               | PHP        |         10 |          0 |          2 |         12 |
+| c:\xampp\htdocs\JobRadar\api\chomeur\delete_exp.php                             | PHP        |         44 |          2 |          3 |         49 |
+| c:\xampp\htdocs\JobRadar\api\chomeur\errorMail.html                             | HTML       |         42 |          0 |          4 |         46 |
+| c:\xampp\htdocs\JobRadar\api\chomeur\nbr.php                                    | PHP        |          4 |          1 |          0 |          5 |
+| c:\xampp\htdocs\JobRadar\api\chomeur\prophile\edit_photo_prophile.php           | PHP        |         76 |          6 |          7 |         89 |
+| c:\xampp\htdocs\JobRadar\api\chomeur\saveExperiance.php                         | PHP        |        133 |         12 |         14 |        159 |
+| c:\xampp\htdocs\JobRadar\api\chomeur\update_exp.php                             | PHP        |         96 |         25 |         13 |        134 |
+| c:\xampp\htdocs\JobRadar\api\chomeur\validateCode.php                           | PHP        |         15 |          0 |          3 |         18 |
+| c:\xampp\htdocs\JobRadar\api\database.php                                       | PHP        |         -3 |          0 |         -2 |         -5 |
+| c:\xampp\htdocs\JobRadar\api\delete_exp.php                                     | PHP        |        -44 |         -2 |         -3 |        -49 |
+| c:\xampp\htdocs\JobRadar\api\employeur\annonce\add_annonce.php                  | PHP        |         38 |         12 |         12 |         62 |
+| c:\xampp\htdocs\JobRadar\api\employeur\annonce\selectAllAnnonce.php             | PHP        |         10 |          0 |          2 |         12 |
+| c:\xampp\htdocs\JobRadar\api\employeur\delete_exp.php                           | PHP        |         44 |          2 |          3 |         49 |
+| c:\xampp\htdocs\JobRadar\api\employeur\entreprise\add_piece_jointe_document.php | PHP        |         68 |          5 |         10 |         83 |
+| c:\xampp\htdocs\JobRadar\api\employeur\entreprise\add_piece_jointe_image.php    | PHP        |         68 |          5 |         10 |         83 |
+| c:\xampp\htdocs\JobRadar\api\employeur\entreprise\delete_ent.php                | PHP        |         44 |          2 |          3 |         49 |
+| c:\xampp\htdocs\JobRadar\api\employeur\entreprise\edit_image_entreprise.php     | PHP        |         71 |          6 |          8 |         85 |
+| c:\xampp\htdocs\JobRadar\api\employeur\entreprise\update_ent.php                | PHP        |         56 |          0 |          6 |         62 |
+| c:\xampp\htdocs\JobRadar\api\employeur\errorMail.html                           | HTML       |         42 |          0 |          4 |         46 |
+| c:\xampp\htdocs\JobRadar\api\employeur\nbr.php                                  | PHP        |          4 |          1 |          0 |          5 |
+| c:\xampp\htdocs\JobRadar\api\employeur\prophile\edit_photo_prophile.php         | PHP        |         70 |          6 |          7 |         83 |
+| c:\xampp\htdocs\JobRadar\api\employeur\saveEntreprise.php                       | PHP        |         84 |          7 |         11 |        102 |
+| c:\xampp\htdocs\JobRadar\api\employeur\update_exp.php                           | PHP        |         96 |         25 |         13 |        134 |
+| c:\xampp\htdocs\JobRadar\api\employeur\validateCode.php                         | PHP        |         15 |          0 |          3 |         18 |
+| c:\xampp\htdocs\JobRadar\api\entreprise\add_piece_jointe_document.php           | PHP        |        -69 |         -5 |         -9 |        -83 |
+| c:\xampp\htdocs\JobRadar\api\entreprise\add_piece_jointe_image.php              | PHP        |        -69 |         -5 |         -9 |        -83 |
+| c:\xampp\htdocs\JobRadar\api\entreprise\delete_ent.php                          | PHP        |        -44 |         -2 |         -3 |        -49 |
+| c:\xampp\htdocs\JobRadar\api\entreprise\edit_image_entreprise.php               | PHP        |        -72 |         -6 |         -7 |        -85 |
+| c:\xampp\htdocs\JobRadar\api\entreprise\update_ent.php                          | PHP        |        -50 |          0 |         -4 |        -54 |
+| c:\xampp\htdocs\JobRadar\api\errorMail.html                                     | HTML       |        -42 |          0 |         -4 |        -46 |
+| c:\xampp\htdocs\JobRadar\api\login.php                                          | PHP        |          4 |          0 |          2 |          6 |
+| c:\xampp\htdocs\JobRadar\api\nbr.php                                            | PHP        |         -4 |         -1 |          0 |         -5 |
+| c:\xampp\htdocs\JobRadar\api\prophile\edit_photo_prophile.php                   | PHP        |        -76 |         -6 |         -7 |        -89 |
+| c:\xampp\htdocs\JobRadar\api\saveEntreprise.php                                 | PHP        |        -88 |         -7 |        -10 |       -105 |
+| c:\xampp\htdocs\JobRadar\api\saveExperiance.php                                 | PHP        |       -133 |        -12 |        -14 |       -159 |
+| c:\xampp\htdocs\JobRadar\api\saveUser.php                                       | PHP        |          2 |          5 |         12 |         19 |
+| c:\xampp\htdocs\JobRadar\api\update_exp.php                                     | PHP        |        -96 |        -25 |        -13 |       -134 |
+| c:\xampp\htdocs\JobRadar\api\validateCode.php                                   | PHP        |        -15 |          0 |         -3 |        -18 |
+| c:\xampp\htdocs\JobRadar\api\verification_code.php                              | PHP        |        114 |          0 |          9 |        123 |
+| c:\xampp\htdocs\JobRadar\api\verification_email.php                             | PHP        |         62 |          7 |         14 |         83 |
+| c:\xampp\htdocs\JobRadar\config.php                                             | PHP        |          0 |          0 |          1 |          1 |
+| c:\xampp\htdocs\JobRadar\index.php                                              | PHP        |        -33 |          0 |          2 |        -31 |
+| c:\xampp\htdocs\JobRadar\public\documents\1151739509332.html                    | HTML       |         -1 |          0 |          0 |         -1 |
+| c:\xampp\htdocs\JobRadar\public\documents\1161740215592.html                    | HTML       |         -1 |          0 |          0 |         -1 |
+| c:\xampp\htdocs\JobRadar\script\ajout_entreprise.js                             | JavaScript |        -15 |          0 |         -3 |        -18 |
+| c:\xampp\htdocs\JobRadar\script\ajout_experiance.js                             | JavaScript |        -78 |          0 |         -9 |        -87 |
+| c:\xampp\htdocs\JobRadar\script\chomeur\ajout_entreprise.js                     | JavaScript |         15 |          0 |          3 |         18 |
+| c:\xampp\htdocs\JobRadar\script\chomeur\ajout_experiance.js                     | JavaScript |         78 |          0 |          9 |         87 |
+| c:\xampp\htdocs\JobRadar\script\chomeur\header.js                               | JavaScript |          0 |          0 |          1 |          1 |
+| c:\xampp\htdocs\JobRadar\script\chomeur\presentation_ent.js                     | JavaScript |        121 |         31 |         17 |        169 |
+| c:\xampp\htdocs\JobRadar\script\chomeur\presentation_exp.js                     | JavaScript |         78 |          0 |          6 |         84 |
+| c:\xampp\htdocs\JobRadar\script\chomeur\prophile.js                             | JavaScript |         23 |          8 |          5 |         36 |
+| c:\xampp\htdocs\JobRadar\script\code_confirmation.js                            | JavaScript |         39 |          1 |          5 |         45 |
+| c:\xampp\htdocs\JobRadar\script\employeur\ajout_entreprise.js                   | JavaScript |         15 |          0 |          3 |         18 |
+| c:\xampp\htdocs\JobRadar\script\employeur\ajout_experiance.js                   | JavaScript |         78 |          0 |          9 |         87 |
+| c:\xampp\htdocs\JobRadar\script\employeur\header.js                             | JavaScript |          0 |          0 |          1 |          1 |
+| c:\xampp\htdocs\JobRadar\script\employeur\presentation_ent.js                   | JavaScript |        121 |         31 |         17 |        169 |
+| c:\xampp\htdocs\JobRadar\script\employeur\presentation_exp.js                   | JavaScript |         78 |          0 |          6 |         84 |
+| c:\xampp\htdocs\JobRadar\script\employeur\prophile.js                           | JavaScript |         23 |          8 |          5 |         36 |
+| c:\xampp\htdocs\JobRadar\script\header.js                                       | JavaScript |          0 |          0 |         -1 |         -1 |
+| c:\xampp\htdocs\JobRadar\script\header_general.js                               | JavaScript |          0 |          0 |          1 |          1 |
+| c:\xampp\htdocs\JobRadar\script\inscription.js                                  | JavaScript |       -108 |          4 |        -18 |       -122 |
+| c:\xampp\htdocs\JobRadar\script\presentation_ent.js                             | JavaScript |       -121 |        -31 |        -17 |       -169 |
+| c:\xampp\htdocs\JobRadar\script\presentation_exp.js                             | JavaScript |        -78 |          0 |         -6 |        -84 |
+| c:\xampp\htdocs\JobRadar\script\prophile.js                                     | JavaScript |        -23 |         -8 |         -5 |        -36 |
+| c:\xampp\htdocs\JobRadar\style\chomeur\entreprise.css                           | CSS        |         84 |          0 |          1 |         85 |
+| c:\xampp\htdocs\JobRadar\style\chomeur\experiance.css                           | CSS        |        103 |          0 |          2 |        105 |
+| c:\xampp\htdocs\JobRadar\style\chomeur\footer.css                               | CSS        |         22 |          0 |          1 |         23 |
+| c:\xampp\htdocs\JobRadar\style\chomeur\header.css                               | CSS        |        146 |         26 |          4 |        176 |
+| c:\xampp\htdocs\JobRadar\style\chomeur\index.css                                | CSS        |        262 |          1 |         41 |        304 |
+| c:\xampp\htdocs\JobRadar\style\chomeur\presentation_ent.css                     | CSS        |        314 |          5 |         46 |        365 |
+| c:\xampp\htdocs\JobRadar\style\chomeur\presentation_exp.css                     | CSS        |        219 |          1 |          4 |        224 |
+| c:\xampp\htdocs\JobRadar\style\chomeur\profile.css                              | CSS        |         71 |          0 |          0 |         71 |
+| c:\xampp\htdocs\JobRadar\style\chomeur\prophile.css                             | CSS        |        232 |          2 |         35 |        269 |
+| c:\xampp\htdocs\JobRadar\style\employeur\entreprise.css                         | CSS        |         91 |          0 |          1 |         92 |
+| c:\xampp\htdocs\JobRadar\style\employeur\experiance.css                         | CSS        |        103 |          0 |          2 |        105 |
+| c:\xampp\htdocs\JobRadar\style\employeur\footer.css                             | CSS        |         22 |          0 |          1 |         23 |
+| c:\xampp\htdocs\JobRadar\style\employeur\header.css                             | CSS        |        146 |         26 |          4 |        176 |
+| c:\xampp\htdocs\JobRadar\style\employeur\index.css                              | CSS        |        237 |          0 |         36 |        273 |
+| c:\xampp\htdocs\JobRadar\style\employeur\presentation_ent.css                   | CSS        |        317 |          5 |         46 |        368 |
+| c:\xampp\htdocs\JobRadar\style\employeur\presentation_exp.css                   | CSS        |        219 |          1 |          4 |        224 |
+| c:\xampp\htdocs\JobRadar\style\employeur\profile.css                            | CSS        |         71 |          0 |          0 |         71 |
+| c:\xampp\htdocs\JobRadar\style\employeur\prophile.css                           | CSS        |        232 |          2 |         35 |        269 |
+| c:\xampp\htdocs\JobRadar\style\entreprise.css                                   | CSS        |        -84 |          0 |         -1 |        -85 |
+| c:\xampp\htdocs\JobRadar\style\experiance.css                                   | CSS        |       -103 |          0 |         -2 |       -105 |
+| c:\xampp\htdocs\JobRadar\style\footer.css                                       | CSS        |        -22 |          0 |         -1 |        -23 |
+| c:\xampp\htdocs\JobRadar\style\footer_general.css                               | CSS        |         22 |          0 |          1 |         23 |
+| c:\xampp\htdocs\JobRadar\style\header.css                                       | CSS        |       -146 |        -26 |         -4 |       -176 |
+| c:\xampp\htdocs\JobRadar\style\header_general.css                               | CSS        |        146 |         26 |          4 |        176 |
+| c:\xampp\htdocs\JobRadar\style\index.css                                        | CSS        |       -262 |         -1 |        -41 |       -304 |
+| c:\xampp\htdocs\JobRadar\style\index_general.css                                | CSS        |        109 |          1 |         18 |        128 |
+| c:\xampp\htdocs\JobRadar\style\inscription.css                                  | CSS        |        -33 |          0 |        -14 |        -47 |
+| c:\xampp\htdocs\JobRadar\style\presentation_ent.css                             | CSS        |       -314 |         -5 |        -46 |       -365 |
+| c:\xampp\htdocs\JobRadar\style\presentation_exp.css                             | CSS        |       -219 |         -1 |         -4 |       -224 |
+| c:\xampp\htdocs\JobRadar\style\profile.css                                      | CSS        |        -71 |          0 |          0 |        -71 |
+| c:\xampp\htdocs\JobRadar\style\prophile.css                                     | CSS        |       -232 |         -2 |        -35 |       -269 |
+| Total                                                                           |            |      3,402 |        189 |        327 |      3,918 |
++---------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

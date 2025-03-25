@@ -1,55 +1,75 @@
 <?php
+
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
+require '../vendor/autoload.php';
+
+header('Content-Type: application/json');
 // File
 require_once("./database.php");
 
 $pdo = getConnexion();
 tryTable();
 
-    $nom = $_POST['nom'];
-    $prenom = $_POST['prenom'];
-    $sexe = $_POST['sexe'];
-    $mdp = password_hash($_POST['mdp'], PASSWORD_DEFAULT); // Hachage du mot de passe
-    $email = $_POST['email'];
-    $pays = $_POST['pays'];
-    $telephone = $_POST['telephone'];
-    $code = $_POST['code'];
-    // Vérifier si l'email existe déjà
-    $stmt = $pdo->prepare("SELECT COUNT(*) FROM user WHERE email = :email");
-    $stmt->bindParam(':email', $email);
-    $stmt->execute();
-    $count = $stmt->fetchColumn();
+$nom = $_POST['nom'];
+$prenom = $_POST['prenom'];
+$sexe = $_POST['sexe'];
+$mdp = password_hash($_POST['motdepasse'], PASSWORD_DEFAULT); // Hachage du mot de passe
+$email = $_POST['email'];
+$pays = $_POST['pays'];
+$telephone = $_POST['telephone'];
+$statut = $_POST['statut']; //statut soit chomeur ou employeur
+// Vérifier si l'email existe déjà
+$stmt_chomeur = $pdo->prepare("SELECT COUNT(*) FROM chomeur WHERE email = :email");
+$stmt_chomeur->bindParam(':email', $email);
+$stmt_chomeur->execute();
+$count_chomeur = $stmt_chomeur->fetchColumn();
 
+$stmt_employeur = $pdo->prepare("SELECT COUNT(*) FROM employeur WHERE email = :email");
+$stmt_employeur->bindParam(':email', $email);
+$stmt_employeur->execute();
+$count_employeur = $stmt_employeur->fetchColumn();
+
+
+
+
+$count = $count_chomeur + $count_employeur;
 if ($count > 0) {
-    echo "<p class='msg_user_exist'>Un utilisateur avec cet email existe déjà !</p>";
-    include("../Components/inscription.php");
+    echo json_encode(['success' => false, 'message' => 'Un utilisateur avec cet email existe déjà !']);
 } else {
-    $sql = "INSERT INTO user (nom, prenom, sexe, password, email, pays, tel)
-    VALUES (:nom, :prenom, :sexe, :mdp, :email, :pays, :telephone)";
-    $stmt = $pdo->prepare($sql);
-    $stmt->bindParam(':nom', $nom);
-    $stmt->bindParam(':prenom', $prenom);
-    $stmt->bindParam(':sexe', $sexe);
-    $stmt->bindParam(':mdp', $mdp);
-    $stmt->bindParam(':email', $email);
-    $stmt->bindParam(':pays', $pays);
-    $stmt->bindParam(':telephone', $telephone);
 
-    if ($stmt->execute()) {
-    echo "<h1 class='msg_reussite'>Compte créer avec succès.</h1>
-    <style>
-        .msg_reussite{
-        position: absolute;
-        width: 100%;
-        text-align: center;
-        top: 75px;
-        color: rgb(0, 129, 52);
-        font-family: Arial, sans-serif;
-    }
-    </style>
-    ";
-    echo "<script>setTimeout(function() { window.location.href = '../Components/connexion.php'; }, 6000);</script>";
-    } else {
-    echo "Erreur : " . $stmt->errorInfo()[2];
+
+    $mail = new PHPMailer(true);
+
+    try {
+        // Générer un nombre aléatoire entre 1000 et 9999 (4 chiffres)
+        $randomNumber = rand(1000, 9999);
+        // Stocker le code généré dans une variable de session
+        $_SESSION['confirmation_code'] = $randomNumber;
+
+        // Paramètres du serveur
+        $mail->isSMTP();                                           // Utiliser SMTP
+        $mail->Host       = 'smtp.gmail.com';                    // Serveur SMTP
+        $mail->SMTPAuth   = true;                                  // Activer l'authentification SMTP
+        $mail->Username   = 'jobradar50@gmail.com';              // Adresse email SMTP
+        $mail->Password   = 'aees jfre rqom qeed';                       // Mot de passe SMTP
+        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;        // Chiffrement TLS
+        $mail->Port       = 587;                                   // Port TCP pour SMTP
+
+        // Destinataire
+        $mail->setFrom('jobradar50@gmail.com', 'JobRadar');
+        $mail->addAddress($_POST['email'], $_POST['nom']); // Ajouter un destinataire
+
+        // Contenu
+        $mail->isHTML(true);                                       // Format de l'email en HTML
+        $mail->Subject = 'Code de JobRadar';
+        $mail->Body    = '<h2>Le code de confirmation est : ' . $randomNumber . '</h2>';
+
+        $mail->send();
+        echo json_encode(['success' => true, 'message' => 'Email envoyé avec succès']);
+    } catch (Exception $e) {
+        echo json_encode(['success' => false, 'message' => 'Erreur lors de l\'envoi de l\'email : ' . $mail->ErrorInfo]);
     }
 }
 ?>

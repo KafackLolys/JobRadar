@@ -1,0 +1,354 @@
+Date : 2025-03-19 15:24:34
+Directory : c:\xampp\htdocs\JobRadar
+Total : 259 files,  21465 codes, 6760 comments, 3037 blanks, all 31262 lines
+
+Languages
++--------------+------------+------------+------------+------------+------------+
+| language     | files      | code       | comment    | blank      | total      |
++--------------+------------+------------+------------+------------+------------+
+| PHP          |        189 |     14,969 |      6,485 |      2,249 |     23,703 |
+| CSS          |         23 |      3,280 |         96 |        289 |      3,665 |
+| Markdown     |          7 |      1,315 |          0 |        290 |      1,605 |
+| JavaScript   |         16 |        797 |        102 |        108 |      1,007 |
+| JSON         |          4 |        275 |          0 |          4 |        279 |
+| YAML         |          6 |        258 |         54 |         48 |        360 |
+| XML          |          2 |        229 |          0 |          2 |        231 |
+| HTML         |          7 |        217 |          0 |         10 |        227 |
+| Shell Script |          4 |        116 |         22 |         31 |        169 |
+| Docker       |          1 |          9 |          1 |          6 |         16 |
++--------------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                             | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                |        259 |     21,465 |      6,760 |      3,037 |     31,262 |
+| . (Files)                                                                                                        |          4 |        198 |          4 |         10 |        212 |
+| Components                                                                                                       |         27 |      2,196 |         72 |        160 |      2,428 |
+| Components (Files)                                                                                               |          5 |        235 |          3 |         20 |        258 |
+| Components\chomeur                                                                                               |         13 |      1,208 |         48 |         81 |      1,337 |
+| Components\chomeur (Files)                                                                                       |          5 |        347 |         10 |         23 |        380 |
+| Components\chomeur\Accueil                                                                                       |          2 |        103 |          4 |          4 |        111 |
+| Components\chomeur\Presentation                                                                                  |          2 |        366 |         20 |         30 |        416 |
+| Components\chomeur\Profile                                                                                       |          1 |         93 |          6 |          8 |        107 |
+| Components\chomeur\Prophile                                                                                      |          3 |        299 |          8 |         16 |        323 |
+| Components\employeur                                                                                             |          9 |        753 |         21 |         59 |        833 |
+| Components\employeur (Files)                                                                                     |          4 |        383 |         10 |         27 |        420 |
+| Components\employeur\Accueil                                                                                     |          2 |         55 |          0 |          5 |         60 |
+| Components\employeur\Presentation                                                                                |          1 |        195 |          5 |         17 |        217 |
+| Components\employeur\Profile                                                                                     |          1 |         93 |          6 |          8 |        107 |
+| Components\employeur\Prophile                                                                                    |          1 |         27 |          0 |          2 |         29 |
+| api                                                                                                              |         29 |      1,596 |        155 |        219 |      1,970 |
+| api (Files)                                                                                                      |          6 |        428 |         26 |         69 |        523 |
+| api\chomeur                                                                                                      |          9 |        458 |         58 |         58 |        574 |
+| api\chomeur (Files)                                                                                              |          6 |        334 |         40 |         37 |        411 |
+| api\chomeur\annonce                                                                                              |          2 |         48 |         12 |         14 |         74 |
+| api\chomeur\prophile                                                                                             |          1 |         76 |          6 |          7 |         89 |
+| api\employeur                                                                                                    |         14 |        710 |         71 |         92 |        873 |
+| api\employeur (Files)                                                                                            |          6 |        285 |         35 |         34 |        354 |
+| api\employeur\annonce                                                                                            |          2 |         48 |         12 |         14 |         74 |
+| api\employeur\entreprise                                                                                         |          5 |        307 |         18 |         37 |        362 |
+| api\employeur\prophile                                                                                           |          1 |         70 |          6 |          7 |         83 |
+| script                                                                                                           |         16 |        797 |        102 |        108 |      1,007 |
+| script (Files)                                                                                                   |          4 |        167 |         24 |         26 |        217 |
+| script\chomeur                                                                                                   |          6 |        315 |         39 |         41 |        395 |
+| script\employeur                                                                                                 |          6 |        315 |         39 |         41 |        395 |
+| style                                                                                                            |         23 |      3,280 |         96 |        289 |      3,665 |
+| style (Files)                                                                                                    |          5 |        389 |         27 |         26 |        442 |
+| style\chomeur                                                                                                    |          9 |      1,453 |         35 |        134 |      1,622 |
+| style\employeur                                                                                                  |          9 |      1,438 |         34 |        129 |      1,601 |
+| vendor                                                                                                           |        160 |     13,398 |      6,331 |      2,251 |     21,980 |
+| vendor (Files)                                                                                                   |          1 |         20 |          1 |          5 |         26 |
+| vendor\composer                                                                                                  |         10 |        687 |        384 |        147 |      1,218 |
+| vendor\phpmailer                                                                                                 |        149 |     12,691 |      5,946 |      2,099 |     20,736 |
+| vendor\phpmailer\phpmailer                                                                                       |        149 |     12,691 |      5,946 |      2,099 |     20,736 |
+| vendor\phpmailer\phpmailer (Files)                                                                               |          8 |      1,475 |         49 |        258 |      1,782 |
+| vendor\phpmailer\phpmailer\.github                                                                               |          8 |        268 |         55 |         61 |        384 |
+| vendor\phpmailer\phpmailer\.github (Files)                                                                       |          2 |         13 |          5 |          4 |         22 |
+| vendor\phpmailer\phpmailer\.github\ISSUE_TEMPLATE                                                                |          1 |         17 |          0 |          7 |         24 |
+| vendor\phpmailer\phpmailer\.github\actions                                                                       |          2 |         11 |          2 |          9 |         22 |
+| vendor\phpmailer\phpmailer\.github\actions\build-docs                                                            |          2 |         11 |          2 |          9 |         22 |
+| vendor\phpmailer\phpmailer\.github\workflows                                                                     |          3 |        227 |         48 |         41 |        316 |
+| vendor\phpmailer\phpmailer\.phan                                                                                 |          1 |         13 |         23 |          6 |         42 |
+| vendor\phpmailer\phpmailer\docs                                                                                  |          1 |          5 |          0 |          4 |          9 |
+| vendor\phpmailer\phpmailer\examples                                                                              |          4 |        302 |          0 |         47 |        349 |
+| vendor\phpmailer\phpmailer\examples (Files)                                                                      |          3 |         93 |          0 |         46 |        139 |
+| vendor\phpmailer\phpmailer\examples\images                                                                       |          1 |        209 |          0 |          1 |        210 |
+| vendor\phpmailer\phpmailer\language                                                                              |         57 |      1,256 |        336 |        171 |      1,763 |
+| vendor\phpmailer\phpmailer\src                                                                                   |          7 |      4,053 |      3,004 |        644 |      7,701 |
+| vendor\phpmailer\phpmailer\test                                                                                  |         63 |      5,319 |      2,479 |        908 |      8,706 |
+| vendor\phpmailer\phpmailer\test (Files)                                                                          |          9 |        432 |        256 |        111 |        799 |
+| vendor\phpmailer\phpmailer\test\Fixtures                                                                         |         11 |         34 |         60 |         37 |        131 |
+| vendor\phpmailer\phpmailer\test\Fixtures\LocalizationTest                                                        |         11 |         34 |         60 |         37 |        131 |
+| vendor\phpmailer\phpmailer\test\Language                                                                         |          1 |         51 |         36 |         11 |         98 |
+| vendor\phpmailer\phpmailer\test\OAuth                                                                            |          1 |         48 |         21 |          8 |         77 |
+| vendor\phpmailer\phpmailer\test\PHPMailer                                                                        |         39 |      4,669 |      2,023 |        716 |      7,408 |
+| vendor\phpmailer\phpmailer\test\POP3                                                                             |          1 |         67 |         55 |         18 |        140 |
+| vendor\phpmailer\phpmailer\test\Security                                                                         |          1 |         18 |         28 |          7 |         53 |
++------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------------------------------------------------+--------------+------------+------------+------------+------------+
+| filename                                                                                                         | language     | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------------------+--------------+------------+------------+------------+------------+
+| c:\xampp\htdocs\JobRadar\Components\chomeur\Accueil\entrepriseUser.php                                           | PHP          |         47 |          2 |          2 |         51 |
+| c:\xampp\htdocs\JobRadar\Components\chomeur\Accueil\infoUser.php                                                 | PHP          |         56 |          2 |          2 |         60 |
+| c:\xampp\htdocs\JobRadar\Components\chomeur\Presentation\entreprise.php                                          | PHP          |        203 |          7 |         18 |        228 |
+| c:\xampp\htdocs\JobRadar\Components\chomeur\Presentation\experiance.php                                          | PHP          |        163 |         13 |         12 |        188 |
+| c:\xampp\htdocs\JobRadar\Components\chomeur\Profile\index.php                                                    | PHP          |         93 |          6 |          8 |        107 |
+| c:\xampp\htdocs\JobRadar\Components\chomeur\Prophile\entrepriseProphile.php                                      | PHP          |         47 |          2 |          2 |         51 |
+| c:\xampp\htdocs\JobRadar\Components\chomeur\Prophile\infoExperiance.php                                          | PHP          |         21 |          2 |          4 |         27 |
+| c:\xampp\htdocs\JobRadar\Components\chomeur\Prophile\prophile.php                                                | PHP          |        231 |          4 |         10 |        245 |
+| c:\xampp\htdocs\JobRadar\Components\chomeur\ajout_entreprise.php                                                 | PHP          |         46 |          2 |          4 |         52 |
+| c:\xampp\htdocs\JobRadar\Components\chomeur\ajout_experiance.php                                                 | PHP          |         68 |          2 |          5 |         75 |
+| c:\xampp\htdocs\JobRadar\Components\chomeur\footer.html                                                          | HTML         |         31 |          0 |          0 |         31 |
+| c:\xampp\htdocs\JobRadar\Components\chomeur\header.php                                                           | PHP          |         76 |          2 |          8 |         86 |
+| c:\xampp\htdocs\JobRadar\Components\chomeur\index.php                                                            | PHP          |        126 |          4 |          6 |        136 |
+| c:\xampp\htdocs\JobRadar\Components\connexion.php                                                                | PHP          |         29 |          1 |          4 |         34 |
+| c:\xampp\htdocs\JobRadar\Components\deconnexion.php                                                              | PHP          |          5 |          0 |          0 |          5 |
+| c:\xampp\htdocs\JobRadar\Components\employeur\Accueil\entrepriseUser.php                                         | PHP          |         29 |          0 |          2 |         31 |
+| c:\xampp\htdocs\JobRadar\Components\employeur\Accueil\infoEmployeur.php                                          | PHP          |         26 |          0 |          3 |         29 |
+| c:\xampp\htdocs\JobRadar\Components\employeur\Presentation\entreprise.php                                        | PHP          |        195 |          5 |         17 |        217 |
+| c:\xampp\htdocs\JobRadar\Components\employeur\Profile\index.php                                                  | PHP          |         93 |          6 |          8 |        107 |
+| c:\xampp\htdocs\JobRadar\Components\employeur\Prophile\entrepriseProphile.php                                    | PHP          |         27 |          0 |          2 |         29 |
+| c:\xampp\htdocs\JobRadar\Components\employeur\ajout_entreprise.php                                               | PHP          |         46 |          2 |          4 |         52 |
+| c:\xampp\htdocs\JobRadar\Components\employeur\footer.html                                                        | HTML         |         31 |          0 |          0 |         31 |
+| c:\xampp\htdocs\JobRadar\Components\employeur\header.php                                                         | PHP          |        103 |          5 |         11 |        119 |
+| c:\xampp\htdocs\JobRadar\Components\employeur\index.php                                                          | PHP          |        203 |          3 |         12 |        218 |
+| c:\xampp\htdocs\JobRadar\Components\footer_general.html                                                          | HTML         |         31 |          0 |          0 |         31 |
+| c:\xampp\htdocs\JobRadar\Components\header_general.php                                                           | PHP          |         75 |          2 |          8 |         85 |
+| c:\xampp\htdocs\JobRadar\Components\inscription.php                                                              | PHP          |         95 |          0 |          8 |        103 |
+| c:\xampp\htdocs\JobRadar\api\chomeur\annonce\add_annonce.php                                                     | PHP          |         38 |         12 |         12 |         62 |
+| c:\xampp\htdocs\JobRadar\api\chomeur\annonce\selectAllAnnonce.php                                                | PHP          |         10 |          0 |          2 |         12 |
+| c:\xampp\htdocs\JobRadar\api\chomeur\delete_exp.php                                                              | PHP          |         44 |          2 |          3 |         49 |
+| c:\xampp\htdocs\JobRadar\api\chomeur\errorMail.html                                                              | HTML         |         42 |          0 |          4 |         46 |
+| c:\xampp\htdocs\JobRadar\api\chomeur\nbr.php                                                                     | PHP          |          4 |          1 |          0 |          5 |
+| c:\xampp\htdocs\JobRadar\api\chomeur\prophile\edit_photo_prophile.php                                            | PHP          |         76 |          6 |          7 |         89 |
+| c:\xampp\htdocs\JobRadar\api\chomeur\saveExperiance.php                                                          | PHP          |        133 |         12 |         14 |        159 |
+| c:\xampp\htdocs\JobRadar\api\chomeur\update_exp.php                                                              | PHP          |         96 |         25 |         13 |        134 |
+| c:\xampp\htdocs\JobRadar\api\chomeur\validateCode.php                                                            | PHP          |         15 |          0 |          3 |         18 |
+| c:\xampp\htdocs\JobRadar\api\database.php                                                                        | PHP          |        115 |          3 |         15 |        133 |
+| c:\xampp\htdocs\JobRadar\api\employeur\annonce\add_annonce.php                                                   | PHP          |         38 |         12 |         12 |         62 |
+| c:\xampp\htdocs\JobRadar\api\employeur\annonce\selectAllAnnonce.php                                              | PHP          |         10 |          0 |          2 |         12 |
+| c:\xampp\htdocs\JobRadar\api\employeur\delete_exp.php                                                            | PHP          |         44 |          2 |          3 |         49 |
+| c:\xampp\htdocs\JobRadar\api\employeur\entreprise\add_piece_jointe_document.php                                  | PHP          |         68 |          5 |         10 |         83 |
+| c:\xampp\htdocs\JobRadar\api\employeur\entreprise\add_piece_jointe_image.php                                     | PHP          |         68 |          5 |         10 |         83 |
+| c:\xampp\htdocs\JobRadar\api\employeur\entreprise\delete_ent.php                                                 | PHP          |         44 |          2 |          3 |         49 |
+| c:\xampp\htdocs\JobRadar\api\employeur\entreprise\edit_image_entreprise.php                                      | PHP          |         71 |          6 |          8 |         85 |
+| c:\xampp\htdocs\JobRadar\api\employeur\entreprise\update_ent.php                                                 | PHP          |         56 |          0 |          6 |         62 |
+| c:\xampp\htdocs\JobRadar\api\employeur\errorMail.html                                                            | HTML         |         42 |          0 |          4 |         46 |
+| c:\xampp\htdocs\JobRadar\api\employeur\nbr.php                                                                   | PHP          |          4 |          1 |          0 |          5 |
+| c:\xampp\htdocs\JobRadar\api\employeur\prophile\edit_photo_prophile.php                                          | PHP          |         70 |          6 |          7 |         83 |
+| c:\xampp\htdocs\JobRadar\api\employeur\saveEntreprise.php                                                        | PHP          |         84 |          7 |         11 |        102 |
+| c:\xampp\htdocs\JobRadar\api\employeur\update_exp.php                                                            | PHP          |         96 |         25 |         13 |        134 |
+| c:\xampp\htdocs\JobRadar\api\employeur\validateCode.php                                                          | PHP          |         15 |          0 |          3 |         18 |
+| c:\xampp\htdocs\JobRadar\api\login.php                                                                           | PHP          |         58 |          4 |          6 |         68 |
+| c:\xampp\htdocs\JobRadar\api\saveUser.php                                                                        | PHP          |         51 |          7 |         17 |         75 |
+| c:\xampp\htdocs\JobRadar\api\sendEmail.php                                                                       | PHP          |         28 |          5 |          8 |         41 |
+| c:\xampp\htdocs\JobRadar\api\verification_code.php                                                               | PHP          |        114 |          0 |          9 |        123 |
+| c:\xampp\htdocs\JobRadar\api\verification_email.php                                                              | PHP          |         62 |          7 |         14 |         83 |
+| c:\xampp\htdocs\JobRadar\composer.json                                                                           | JSON         |          5 |          0 |          1 |          6 |
+| c:\xampp\htdocs\JobRadar\composer.lock                                                                           | JSON         |        100 |          0 |          1 |        101 |
+| c:\xampp\htdocs\JobRadar\config.php                                                                              | PHP          |          0 |          0 |          1 |          1 |
+| c:\xampp\htdocs\JobRadar\index.php                                                                               | PHP          |         93 |          4 |          7 |        104 |
+| c:\xampp\htdocs\JobRadar\script\chomeur\ajout_entreprise.js                                                      | JavaScript   |         15 |          0 |          3 |         18 |
+| c:\xampp\htdocs\JobRadar\script\chomeur\ajout_experiance.js                                                      | JavaScript   |         78 |          0 |          9 |         87 |
+| c:\xampp\htdocs\JobRadar\script\chomeur\header.js                                                                | JavaScript   |          0 |          0 |          1 |          1 |
+| c:\xampp\htdocs\JobRadar\script\chomeur\presentation_ent.js                                                      | JavaScript   |        121 |         31 |         17 |        169 |
+| c:\xampp\htdocs\JobRadar\script\chomeur\presentation_exp.js                                                      | JavaScript   |         78 |          0 |          6 |         84 |
+| c:\xampp\htdocs\JobRadar\script\chomeur\prophile.js                                                              | JavaScript   |         23 |          8 |          5 |         36 |
+| c:\xampp\htdocs\JobRadar\script\code_confirmation.js                                                             | JavaScript   |         39 |          1 |          5 |         45 |
+| c:\xampp\htdocs\JobRadar\script\employeur\ajout_entreprise.js                                                    | JavaScript   |         15 |          0 |          3 |         18 |
+| c:\xampp\htdocs\JobRadar\script\employeur\ajout_experiance.js                                                    | JavaScript   |         78 |          0 |          9 |         87 |
+| c:\xampp\htdocs\JobRadar\script\employeur\header.js                                                              | JavaScript   |          0 |          0 |          1 |          1 |
+| c:\xampp\htdocs\JobRadar\script\employeur\presentation_ent.js                                                    | JavaScript   |        121 |         31 |         17 |        169 |
+| c:\xampp\htdocs\JobRadar\script\employeur\presentation_exp.js                                                    | JavaScript   |         78 |          0 |          6 |         84 |
+| c:\xampp\htdocs\JobRadar\script\employeur\prophile.js                                                            | JavaScript   |         23 |          8 |          5 |         36 |
+| c:\xampp\htdocs\JobRadar\script\header_general.js                                                                | JavaScript   |          0 |          0 |          1 |          1 |
+| c:\xampp\htdocs\JobRadar\script\index.js                                                                         | JavaScript   |         85 |         13 |         12 |        110 |
+| c:\xampp\htdocs\JobRadar\script\inscription.js                                                                   | JavaScript   |         43 |         10 |          8 |         61 |
+| c:\xampp\htdocs\JobRadar\style\chomeur\entreprise.css                                                            | CSS          |         84 |          0 |          1 |         85 |
+| c:\xampp\htdocs\JobRadar\style\chomeur\experiance.css                                                            | CSS          |        103 |          0 |          2 |        105 |
+| c:\xampp\htdocs\JobRadar\style\chomeur\footer.css                                                                | CSS          |         22 |          0 |          1 |         23 |
+| c:\xampp\htdocs\JobRadar\style\chomeur\header.css                                                                | CSS          |        146 |         26 |          4 |        176 |
+| c:\xampp\htdocs\JobRadar\style\chomeur\index.css                                                                 | CSS          |        262 |          1 |         41 |        304 |
+| c:\xampp\htdocs\JobRadar\style\chomeur\presentation_ent.css                                                      | CSS          |        314 |          5 |         46 |        365 |
+| c:\xampp\htdocs\JobRadar\style\chomeur\presentation_exp.css                                                      | CSS          |        219 |          1 |          4 |        224 |
+| c:\xampp\htdocs\JobRadar\style\chomeur\profile.css                                                               | CSS          |         71 |          0 |          0 |         71 |
+| c:\xampp\htdocs\JobRadar\style\chomeur\prophile.css                                                              | CSS          |        232 |          2 |         35 |        269 |
+| c:\xampp\htdocs\JobRadar\style\connexion.css                                                                     | CSS          |         56 |          0 |          2 |         58 |
+| c:\xampp\htdocs\JobRadar\style\employeur\entreprise.css                                                          | CSS          |         91 |          0 |          1 |         92 |
+| c:\xampp\htdocs\JobRadar\style\employeur\experiance.css                                                          | CSS          |        103 |          0 |          2 |        105 |
+| c:\xampp\htdocs\JobRadar\style\employeur\footer.css                                                              | CSS          |         22 |          0 |          1 |         23 |
+| c:\xampp\htdocs\JobRadar\style\employeur\header.css                                                              | CSS          |        146 |         26 |          4 |        176 |
+| c:\xampp\htdocs\JobRadar\style\employeur\index.css                                                               | CSS          |        237 |          0 |         36 |        273 |
+| c:\xampp\htdocs\JobRadar\style\employeur\presentation_ent.css                                                    | CSS          |        317 |          5 |         46 |        368 |
+| c:\xampp\htdocs\JobRadar\style\employeur\presentation_exp.css                                                    | CSS          |        219 |          1 |          4 |        224 |
+| c:\xampp\htdocs\JobRadar\style\employeur\profile.css                                                             | CSS          |         71 |          0 |          0 |         71 |
+| c:\xampp\htdocs\JobRadar\style\employeur\prophile.css                                                            | CSS          |        232 |          2 |         35 |        269 |
+| c:\xampp\htdocs\JobRadar\style\footer_general.css                                                                | CSS          |         22 |          0 |          1 |         23 |
+| c:\xampp\htdocs\JobRadar\style\header_general.css                                                                | CSS          |        146 |         26 |          4 |        176 |
+| c:\xampp\htdocs\JobRadar\style\index_general.css                                                                 | CSS          |        109 |          1 |         18 |        128 |
+| c:\xampp\htdocs\JobRadar\style\inscription.css                                                                   | CSS          |         56 |          0 |          1 |         57 |
+| c:\xampp\htdocs\JobRadar\vendor\autoload.php                                                                     | PHP          |         20 |          1 |          5 |         26 |
+| c:\xampp\htdocs\JobRadar\vendor\composer\ClassLoader.php                                                         | PHP          |        286 |        235 |         59 |        580 |
+| c:\xampp\htdocs\JobRadar\vendor\composer\InstalledVersions.php                                                   | PHP          |        188 |        140 |         51 |        379 |
+| c:\xampp\htdocs\JobRadar\vendor\composer\autoload_classmap.php                                                   | PHP          |          6 |          1 |          4 |         11 |
+| c:\xampp\htdocs\JobRadar\vendor\composer\autoload_namespaces.php                                                 | PHP          |          5 |          1 |          4 |         10 |
+| c:\xampp\htdocs\JobRadar\vendor\composer\autoload_psr4.php                                                       | PHP          |          6 |          1 |          4 |         11 |
+| c:\xampp\htdocs\JobRadar\vendor\composer\autoload_real.php                                                       | PHP          |         25 |          4 |         10 |         39 |
+| c:\xampp\htdocs\JobRadar\vendor\composer\autoload_static.php                                                     | PHP          |         28 |          1 |          8 |         37 |
+| c:\xampp\htdocs\JobRadar\vendor\composer\installed.json                                                          | JSON         |         90 |          0 |          1 |         91 |
+| c:\xampp\htdocs\JobRadar\vendor\composer\installed.php                                                           | PHP          |         32 |          0 |          1 |         33 |
+| c:\xampp\htdocs\JobRadar\vendor\composer\platform_check.php                                                      | PHP          |         21 |          1 |          5 |         27 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\.codecov.yml                                                 | YAML         |         18 |          1 |          3 |         22 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\.github\FUNDING.yml                                          | YAML         |          4 |          1 |          2 |          7 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\.github\ISSUE_TEMPLATE\bug_report.md                         | Markdown     |         17 |          0 |          7 |         24 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\.github\actions\build-docs\Dockerfile                        | Docker       |          9 |          1 |          6 |         16 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\.github\actions\build-docs\entrypoint.sh                     | Shell Script |          2 |          1 |          3 |          6 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\.github\dependabot.yml                                       | YAML         |          9 |          4 |          2 |         15 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\.github\workflows\docs.yaml                                  | YAML         |         28 |          0 |          2 |         30 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\.github\workflows\scorecards.yml                             | YAML         |         38 |         17 |          8 |         63 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\.github\workflows\tests.yml                                  | YAML         |        161 |         31 |         31 |        223 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\.phan\config.php                                             | PHP          |         13 |         23 |          6 |         42 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\README.md                                                    | Markdown     |        168 |          0 |         64 |        232 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\SECURITY.md                                                  | Markdown     |         19 |          0 |         19 |         38 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\UPGRADING.md                                                 | Markdown     |         99 |          0 |         27 |        126 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\changelog.md                                                 | Markdown     |        954 |          0 |        125 |      1,079 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\composer.json                                                | JSON         |         80 |          0 |          1 |         81 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\docs\README.md                                               | Markdown     |          5 |          0 |          4 |          9 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\examples\README.md                                           | Markdown     |         53 |          0 |         44 |         97 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\examples\contents.html                                       | HTML         |         17 |          0 |          1 |         18 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\examples\contentsutf8.html                                   | HTML         |         23 |          0 |          1 |         24 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\examples\images\PHPMailer card logo.svg                      | XML          |        209 |          0 |          1 |        210 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\get_oauth_token.php                                          | PHP          |        117 |         48 |         18 |        183 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\language\phpmailer.lang-af.php                               | PHP          |         20 |          4 |          3 |         27 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\language\phpmailer.lang-ar.php                               | PHP          |         20 |          5 |          3 |         28 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\language\phpmailer.lang-as.php                               | PHP          |         28 |          5 |          3 |         36 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\language\phpmailer.lang-az.php                               | PHP          |         19 |          6 |          3 |         28 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\language\phpmailer.lang-ba.php                               | PHP          |         20 |          5 |          3 |         28 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\language\phpmailer.lang-be.php                               | PHP          |         19 |          6 |          3 |         28 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\language\phpmailer.lang-bg.php                               | PHP          |         20 |          5 |          3 |         28 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\language\phpmailer.lang-bn.php                               | PHP          |         28 |          5 |          3 |         36 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\language\phpmailer.lang-ca.php                               | PHP          |         19 |          6 |          3 |         28 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\language\phpmailer.lang-cs.php                               | PHP          |         22 |          4 |          3 |         29 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\language\phpmailer.lang-da.php                               | PHP          |         27 |          7 |          3 |         37 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\language\phpmailer.lang-de.php                               | PHP          |         22 |          4 |          3 |         29 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\language\phpmailer.lang-el.php                               | PHP          |         27 |          4 |          3 |         34 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\language\phpmailer.lang-eo.php                               | PHP          |         20 |          4 |          3 |         27 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\language\phpmailer.lang-es.php                               | PHP          |         27 |          7 |          3 |         37 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\language\phpmailer.lang-et.php                               | PHP          |         20 |          6 |          3 |         29 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\language\phpmailer.lang-fa.php                               | PHP          |         20 |          6 |          3 |         29 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\language\phpmailer.lang-fi.php                               | PHP          |         13 |         12 |          3 |         28 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\language\phpmailer.lang-fo.php                               | PHP          |         13 |         12 |          3 |         28 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\language\phpmailer.lang-fr.php                               | PHP          |         27 |          7 |          3 |         37 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\language\phpmailer.lang-gl.php                               | PHP          |         19 |          6 |          3 |         28 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\language\phpmailer.lang-he.php                               | PHP          |         19 |          6 |          3 |         28 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\language\phpmailer.lang-hi.php                               | PHP          |         27 |          6 |          3 |         36 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\language\phpmailer.lang-hr.php                               | PHP          |         20 |          5 |          3 |         28 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\language\phpmailer.lang-hu.php                               | PHP          |         20 |          5 |          3 |         28 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\language\phpmailer.lang-hy.php                               | PHP          |         20 |          5 |          3 |         28 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\language\phpmailer.lang-id.php                               | PHP          |         22 |          7 |          3 |         32 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\language\phpmailer.lang-it.php                               | PHP          |         20 |          6 |          3 |         29 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\language\phpmailer.lang-ja.php                               | PHP          |         27 |          8 |          3 |         38 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\language\phpmailer.lang-ka.php                               | PHP          |         20 |          5 |          3 |         28 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\language\phpmailer.lang-ko.php                               | PHP          |         20 |          5 |          3 |         28 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\language\phpmailer.lang-ku.php                               | PHP          |         20 |          5 |          3 |         28 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\language\phpmailer.lang-lt.php                               | PHP          |         19 |          6 |          3 |         28 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\language\phpmailer.lang-lv.php                               | PHP          |         19 |          6 |          3 |         28 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\language\phpmailer.lang-mg.php                               | PHP          |         20 |          5 |          3 |         28 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\language\phpmailer.lang-mn.php                               | PHP          |         20 |          5 |          3 |         28 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\language\phpmailer.lang-ms.php                               | PHP          |         20 |          5 |          3 |         28 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\language\phpmailer.lang-nb.php                               | PHP          |         27 |          4 |          3 |         34 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\language\phpmailer.lang-nl.php                               | PHP          |         27 |          5 |          3 |         35 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\language\phpmailer.lang-pl.php                               | PHP          |         27 |          4 |          3 |         34 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\language\phpmailer.lang-pt.php                               | PHP          |         20 |          5 |          3 |         28 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\language\phpmailer.lang-pt_br.php                            | PHP          |         27 |          9 |          3 |         39 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\language\phpmailer.lang-ro.php                               | PHP          |         27 |          4 |          3 |         34 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\language\phpmailer.lang-ru.php                               | PHP          |         27 |          7 |          3 |         37 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\language\phpmailer.lang-si.php                               | PHP          |         27 |          5 |          3 |         35 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\language\phpmailer.lang-sk.php                               | PHP          |         22 |          6 |          3 |         31 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\language\phpmailer.lang-sl.php                               | PHP          |         27 |          7 |          3 |         37 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\language\phpmailer.lang-sr.php                               | PHP          |         20 |          6 |          3 |         29 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\language\phpmailer.lang-sr_latn.php                          | PHP          |         20 |          6 |          3 |         29 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\language\phpmailer.lang-sv.php                               | PHP          |         19 |          6 |          3 |         28 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\language\phpmailer.lang-tl.php                               | PHP          |         20 |          6 |          3 |         29 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\language\phpmailer.lang-tr.php                               | PHP          |         27 |          9 |          3 |         39 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\language\phpmailer.lang-uk.php                               | PHP          |         20 |          6 |          3 |         29 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\language\phpmailer.lang-ur.php                               | PHP          |         23 |          5 |          3 |         31 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\language\phpmailer.lang-vi.php                               | PHP          |         19 |          6 |          3 |         28 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\language\phpmailer.lang-zh.php                               | PHP          |         20 |          7 |          3 |         30 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\language\phpmailer.lang-zh_cn.php                            | PHP          |         27 |          7 |          3 |         37 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\phpdoc.dist.xml                                              | XML          |         20 |          0 |          1 |         21 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\src\DSNConfigurator.php                                      | PHP          |        136 |         80 |         30 |        246 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\src\Exception.php                                            | PHP          |          9 |         28 |          4 |         41 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\src\OAuth.php                                                | PHP          |         46 |         79 |         15 |        140 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\src\OAuthTokenProvider.php                                   | PHP          |          6 |         35 |          4 |         45 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\src\PHPMailer.php                                            | PHP          |      2,926 |      1,929 |        394 |      5,249 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\src\POP3.php                                                 | PHP          |        183 |        234 |         53 |        470 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\src\SMTP.php                                                 | PHP          |        747 |        619 |        144 |      1,510 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\DebugLogTestListener.php                                | PHP          |         25 |         13 |         10 |         48 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\Fixtures\LocalizationTest\phpmailer.lang-fr.php         | PHP          |          2 |          6 |          3 |         11 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\Fixtures\LocalizationTest\phpmailer.lang-nl.php         | PHP          |          2 |          6 |          3 |         11 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\Fixtures\LocalizationTest\phpmailer.lang-xa_scri_cc.php | PHP          |          2 |          5 |          3 |         10 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\Fixtures\LocalizationTest\phpmailer.lang-xb_scri.php    | PHP          |          2 |          5 |          3 |         10 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\Fixtures\LocalizationTest\phpmailer.lang-xc_cc.php      | PHP          |          2 |          5 |          3 |         10 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\Fixtures\LocalizationTest\phpmailer.lang-xd_cc.php      | PHP          |          2 |          5 |          3 |         10 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\Fixtures\LocalizationTest\phpmailer.lang-xd_scri.php    | PHP          |          2 |          5 |          3 |         10 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\Fixtures\LocalizationTest\phpmailer.lang-xe.php         | PHP          |          2 |          5 |          3 |         10 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\Fixtures\LocalizationTest\phpmailer.lang-xx.php         | PHP          |          2 |          5 |          3 |         10 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\Fixtures\LocalizationTest\phpmailer.lang-yy.php         | PHP          |          8 |          5 |          5 |         18 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\Fixtures\LocalizationTest\phpmailer.lang-zz.php         | PHP          |          8 |          8 |          5 |         21 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\Language\TranslationCompletenessTest.php                | PHP          |         51 |         36 |         11 |         98 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\OAuth\OAuthTest.php                                     | PHP          |         48 |         21 |          8 |         77 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\PHPMailer\AddEmbeddedImageTest.php                      | PHP          |        104 |         53 |         22 |        179 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\PHPMailer\AddStringAttachmentTest.php                   | PHP          |         80 |         48 |         20 |        148 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\PHPMailer\AddStringEmbeddedImageTest.php                | PHP          |         95 |         47 |         20 |        162 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\PHPMailer\AddrFormatTest.php                            | PHP          |         36 |         29 |          6 |         71 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\PHPMailer\AuthCRAMMD5Test.php                           | PHP          |         25 |         18 |          6 |         49 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\PHPMailer\CustomHeaderTest.php                          | PHP          |        184 |         77 |         25 |        286 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\PHPMailer\DKIMTest.php                                  | PHP          |        148 |         79 |         33 |        260 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\PHPMailer\DKIMWithoutExceptionsTest.php                 | PHP          |         16 |         25 |          7 |         48 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\PHPMailer\DSNConfiguratorTest.php                       | PHP          |        120 |         54 |         48 |        222 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\PHPMailer\EncodeQTest.php                               | PHP          |         73 |         30 |          8 |        111 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\PHPMailer\EncodeStringTest.php                          | PHP          |         84 |         40 |         12 |        136 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\PHPMailer\FileIsAccessibleTest.php                      | PHP          |         53 |         38 |         13 |        104 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\PHPMailer\FilenameToTypeTest.php                        | PHP          |         41 |         28 |          6 |         75 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\PHPMailer\GenerateIdTest.php                            | PHP          |         38 |         30 |          8 |         76 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\PHPMailer\GetLastMessageIDTest.php                      | PHP          |         57 |         43 |         11 |        111 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\PHPMailer\HasLineLongerThanMaxTest.php                  | PHP          |         76 |         31 |         12 |        119 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\PHPMailer\Html2TextTest.php                             | PHP          |        165 |         55 |         12 |        232 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\PHPMailer\ICalTest.php                                  | PHP          |         90 |         29 |          8 |        127 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\PHPMailer\IsPermittedPathTest.php                       | PHP          |         73 |         28 |          8 |        109 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\PHPMailer\IsValidHostTest.php                           | PHP          |         61 |         39 |          8 |        108 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\PHPMailer\LocalizationTest.php                          | PHP          |        329 |        111 |         41 |        481 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\PHPMailer\MailTransportTest.php                         | PHP          |         63 |         30 |         16 |        109 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\PHPMailer\MbPathinfoTest.php                            | PHP          |        123 |         41 |          8 |        172 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\PHPMailer\MimeTypesTest.php                             | PHP          |         37 |         28 |          6 |         71 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\PHPMailer\NormalizeBreaksTest.php                       | PHP          |         65 |         36 |         11 |        112 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\PHPMailer\PHPMailerTest.php                             | PHP          |        919 |        218 |        139 |      1,276 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\PHPMailer\ParseAddressesTest.php                        | PHP          |        244 |         91 |         21 |        356 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\PHPMailer\PunyencodeAddressTest.php                     | PHP          |         80 |         50 |         12 |        142 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\PHPMailer\QuotedStringTest.php                          | PHP          |         37 |         28 |          6 |         71 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\PHPMailer\ReplyToGetSetClearTest.php                    | PHP          |        278 |        132 |         42 |        452 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\PHPMailer\SetErrorTest.php                              | PHP          |         89 |         47 |         19 |        155 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\PHPMailer\SetFromTest.php                               | PHP          |        121 |         62 |         20 |        203 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\PHPMailer\SetTest.php                                   | PHP          |         37 |         36 |          9 |         82 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\PHPMailer\SetWordWrapTest.php                           | PHP          |         73 |         33 |         15 |        121 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\PHPMailer\Utf8CharBoundaryTest.php                      | PHP          |         30 |         31 |          6 |         67 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\PHPMailer\ValidateAddressCustomValidatorTest.php        | PHP          |         58 |         45 |         14 |        117 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\PHPMailer\ValidateAddressTest.php                       | PHP          |        335 |        125 |         26 |        486 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\PHPMailer\WrapTextTest.php                              | PHP          |         90 |         30 |          6 |        126 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\PHPMailer\XMailerTest.php                               | PHP          |         42 |         28 |          6 |         76 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\POP3\PopBeforeSmtpTest.php                              | PHP          |         67 |         55 |         18 |        140 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\PreSendTestCase.php                                     | PHP          |         16 |         25 |          6 |         47 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\Security\DenialOfServiceVectorsTest.php                 | PHP          |         18 |         28 |          7 |         53 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\SendTestCase.php                                        | PHP          |         56 |         58 |         13 |        127 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\TestCase.php                                            | PHP          |        205 |        138 |         49 |        392 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\fakepopserver.sh                                        | Shell Script |         94 |         13 |         20 |        127 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\fakesendmail.sh                                         | Shell Script |         15 |          4 |          4 |         23 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\runfakepopserver.sh                                     | Shell Script |          5 |          4 |          4 |         13 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\testbootstrap-dist.php                                  | PHP          |          7 |          0 |          2 |          9 |
+| c:\xampp\htdocs\JobRadar\vendor\phpmailer\phpmailer\test\validators.php                                          | PHP          |          9 |          1 |          3 |         13 |
+| Total                                                                                                            |              |     21,465 |      6,760 |      3,037 |     31,262 |
++------------------------------------------------------------------------------------------------------------------+--------------+------------+------------+------------+------------+

@@ -1,0 +1,92 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0F0F0;
+    color: #333;;
+    height: 100%;
+}
+.frm_ent{
+    background-color: rgba(255, 255, 255, 0.803);
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    font-size: 20px;
+    border: solid rgba(128, 128, 128, 0.325) 1px;
+    border-radius: 10px;
+    box-shadow: 3px 4px 3px rgba(128, 128, 128, 0.645);
+    margin: 20px;
+    padding: 10px;
+}
+.frm_ent form{
+    margin-top: 10px;
+    width: 400px;
+}
+.frm_ent form .champ{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.frm_ent form .champ textarea{
+    margin-left: 20px;
+    height: 500px;
+    height: 100px;
+    font-size: 15px;
+    padding: 15px;
+    resize: none;
+}
+.frm_ent form .champ input{
+    border-radius: 5px;
+    height: 40px;
+    font-size: 17px;
+}
+.frm_ent form .champ #nom{
+    padding-left: 7px;
+}
+.frm_ent form .champ #prophile{
+    background-color: #333;
+    color: white;
+    display: flex;
+    border: none;
+}
+.frm_ent form div button{
+    padding: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ffd700;
+    font-style: oblique;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.frm_ent form div button:hover{
+    box-shadow: 3px 3px 3px #09ff0066;
+}
+main .img{
+    background-image: url("../../public/form_entreprise.jpeg");
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    min-height: 200px;
+    margin-left: 20px;
+}
+.msg_en_exist{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 75px;
+    color: rgb(210, 62, 3);
+    
+    font-size: 20px;
+}

@@ -1,0 +1,361 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    background-color: #F0F0F0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    color: #333;
+    ;
+}
+
+main hr {
+    margin: 20px;
+}
+
+main p {
+    overflow-wrap: break-word;
+    /* pour que le texte s'adapte à son conteneur */
+}
+
+main a {
+    color: #88781f;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+main a:hover {
+    background-color: #333;
+    color: #ffd700;
+}
+
+main .contenu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+main .contenu .c {
+    background-color: #efe47d;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    margin-bottom: 10px;
+    justify-content: center;
+    font-size: 50px;
+}
+
+main .contenu .c1 {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+main .contenu .c2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+main .contenu .c1 img {
+    width: 200px;
+}
+
+main .contenu .c2 .part {
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 2px 2px 2px rgba(128, 128, 128, 0.397);
+    border: solid rgba(128, 128, 128, 0.463) 1px;
+    border-radius: 8px;
+}
+
+
+main .contenu .c2 .p1 img {
+    max-width: 400px;
+}
+
+main .contenu .c2 .p2 .ext {
+    background-color: #333;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    width: 300px;
+    height: 270px;
+}
+
+
+main .contenu .c2 .addpj fieldset {
+    border: none;
+    border-top: solid black 1px;
+    border-left: solid black 1px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+main .contenu .c2 .addpj button {
+    padding: 5px;
+    border: none;
+    background-color: #888;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+main .contenu h1 {
+    margin-bottom: 20px;
+}
+
+main .opp {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+main .opp .edit {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: dimgrey;
+    border: solid rgba(128, 128, 128, 0.445) 1px;
+    background-color: #fbff0017;
+}
+
+main .opp .delete {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: rgba(255, 0, 0, 0.597);
+}
+
+main .opp .delete:hover {
+    background-color: #ff000015;
+}
+
+/*edit form*/
+.form_edit {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.625);
+    z-index: 40;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_content {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 5px;
+}
+
+.frm_ent {
+    text-align: start;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+
+.frm_ent .p1 {
+    margin-top: 10px;
+}
+
+.frm_ent .p1 .champ {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.frm_ent .p1 .champ textarea {
+    height: 50px;
+    width: 100px;
+    font-size: 15px;
+    padding: 15px;
+    resize: none;
+    width: 100%;
+}
+
+.frm_ent .p1 .champ input {
+    border-radius: 5px;
+    height: 40px;
+    font-size: 17px;
+    width: 100%;
+}
+
+.frm_ent .p1 #titre {
+    padding-left: 7px;
+}
+
+.frm_ent .p1 .champ #prophile {
+    background-color: #333;
+    color: white;
+    display: flex;
+    border: none;
+}
+
+main .btn_modif {
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ffd700;
+    font-style: oblique;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+
+fieldset {
+    margin-top: 10px;
+    padding: 20px;
+}
+
+fieldset input {
+    margin: 10px 0px 10px 0px;
+}
+
+fieldset input,
+textarea {
+    padding: 2px 2px 2px 5px;
+}
+
+fieldset #image,
+#doc {
+    width: 150px;
+}
+
+.msg_ex_exist {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 75px;
+    color: rgb(210, 62, 3);
+
+    font-size: 20px;
+}
+
+#close_form {
+    background-color: #d1d1d1;
+    color: #2e3500;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#close_form b {
+    color: red;
+}
+
+/*_______________________________________________________________________________________________________________________*/
+
+/*Form image*/
+.container{
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.625);
+    z-index: 40;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container .popform{
+    background-color: #fff;
+    width: 500px;
+}
+.container .popform #form_img{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.container .popform .form_doc{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.container .popform .champ{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.container .popform label {
+    display: block;
+    margin: 10px 0 5px;
+}
+#save_pj_img{
+    font-size: 20px;
+    background-color: #ffd700;
+    color: #333;
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#save_pj_doc{
+    font-size: 20px;
+    background-color: #ffd700;
+    color: #333;
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+#imagePreview{
+    max-width: 200px;
+}
+
+/*edit image entreprise*/
+#edit_image_entreprise {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.625);
+    z-index: 40;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

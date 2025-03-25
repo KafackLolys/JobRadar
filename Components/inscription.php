@@ -5,74 +5,99 @@
     <meta charset="UTF-8">
     <title>Inscription</title>
     <link rel="stylesheet" href="../style/inscription.css">
-    <link rel="stylesheet" href="../style/header.css">
-    <link rel="stylesheet" href="../style/footer.css">
+    <link rel="stylesheet" href="../style/header_general.css">
+    <link rel="stylesheet" href="../style/footer_general.css">
 </head>
 
 <body>
-<?php
-//header
-include("header.php");
-?>
+    <?php include("header_general.php"); ?>
 
-<main>
-
-<form id="multiStepForm" method="POST" action="../api/saveUser.php">
-
-    <div class="tab">
-        <h2>Étape 1 : Informations Personnelles</h2>
-        <br>
-        <p class="label-message" id="nom-label"></p>
-        <input required type="text" class="champ" placeholder="Nom" name="nom">
-        <p class="error-message" id="nom-error"></p>
-        <p class="label-message" id="prenom-label"></p>
-        <input required type="text" class="champ" placeholder="Prénom" name="prenom">
-        <p class="error-message" id="prenom-error"></p>
-        <div class="sexe">
-            <div>Sexe</div>
-            <div><label for="Masculin">Masculin</label><input required type="radio" value="Masculin" name="sexe" id="Masculin"></div>
-            <div><label for="Feminin">Feminin</label><input required type="radio" value="Feminin" name="sexe" id="Feminin"></div>
+    <main>
+    <div id="loading-message" style="display:none;">
+            <p>Email en cours d'envoi...</p>
+            <div class="loader"></div>
         </div>
-        <p class="error-message" id="sexe-error"></p>
-        <p class="label-message" id="mdp-label"></p>
-        <input required type="password" class="champ" placeholder="Mot de passe" name="mdp" id="mdp">
-        <p class="error-message" id="mdp-error"></p>
-        <p class="label-message" id="cmdp-label"></p>
-        <input required type="password" class="champ" placeholder="Confirmer votre mot de passe" name="cmdp" id="cmdp">     
-        <p class="error-message" id="cmdp-error"></p>
-         
-    </div>
-    <div class="tab">
-        <h2>Étape 2 : Adresse</h2>
-        <br>
-        <p class="label-message" id="email-label"></p>
-        <input required type="email" class="champ" placeholder="Email" name="email">
-        <p class="error-message" id="email-error"></p>
-        <p class="label-message" id="pays-label"></p>
-        <input required type="text" class="champ" placeholder="Pays" name="pays">
-        <p class="error-message" id="pays-error"></p>
-        <p class="label-message" id="telephone-label"></p>
-        <input required type="number" class="champ" placeholder="Telephone" name="telephone">
-        <p class="error-message" id="telephone-error"></p>
-    </div>
-    <div class="tab">
-        <h2>Étape 3 : Code de confirmation</h2>
-        <br>
-        <p class="label-message" id="code-label"></p>
-        <input required type="number" class="champ" placeholder="Code" name="code" maxlength="4">
-        <p class="error-message" id="code-error"></p>
-    </div>
-    <div class="button-container">
-        <button type="button" id="prevBtn" onclick="nextPrev(-1)">Précédent</button>
-        <button type="button" id="nextBtn" onclick="nextPrev(1)">Suivant</button>
-    </div>
-</form>
-</main>
+        <style>
+            #loading-message {
+                text-align: center;
+                margin-top: 20px;
+            }
 
-<script src="../script/inscription.js"></script>
+            .loader {
+                border: 4px solid rgba(0, 0, 0, 0.1);
+                border-radius: 50%;
+                border-top: 4px solid #3498db;
+                width: 30px;
+                height: 30px;
+                animation: spin 1s linear infinite;
+            }
+
+            @keyframes spin {
+                0% {
+                    transform: rotate(0deg);
+                }
+
+                100% {
+                    transform: rotate(360deg);
+                }
+            }
+        </style>
+        <div class="container">
+            <h2>Formulaire d'inscription</h2>
+            <form id="registrationForm">
+                <div class="form-group">
+                    <label for="nom">Nom :</label>
+                    <input type="text" id="nom" name="nom" required>
+                </div>
+                <div class="form-group">
+                    <label for="prenom">Prénom :</label>
+                    <input type="text" id="prenom" name="prenom" required>
+                </div>
+                <div class="form-group">
+                    <label for="sexe">Sexe :</label>
+                    <select id="sexe" name="sexe" required>
+                        <option value="">Sélectionner...</option>
+                        <option value="masculin">Masculin</option>
+                        <option value="feminin">Féminin</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="motdepasse">Mot de passe :</label>
+                    <input type="password" id="motdepasse" name="motdepasse" required>
+                    <div class="error" id="password-error" style="display:none;">Le mot de passe doit contenir au moins 6 caractères, une lettre majuscule et un chiffre.</div>
+                </div>
+                <div class="form-group">
+                    <label for="confirmation">Confirmation du mot de passe :</label>
+                    <input type="password" id="confirmation" name="confirmation" required>
+                    <div class="error" id="error-message" style="display:none;">Les mots de passe ne correspondent pas.</div>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" required>
+                    <div class="error" id="email-error" style="display:none;"></div>
+                </div>
+                <div class="form-group">
+                    <label for="pays">Pays :</label>
+                    <input type="text" id="pays" name="pays" required>
+                </div>
+                <div class="form-group">
+                    <label for="telephone">Téléphone :</label>
+                    <input type="number" id="telephone" name="telephone" required>
+                </div>
+                <div class="form-group">
+                    <label for="statut">Statut :</label>
+                    <select id="statut" name="statut" required>
+                        <option value="">Sélectionner...</option>
+                        <option value="chomeur">Chômeur</option>
+                        <option value="employeur">Employeur</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn">S'inscrire</button>
+            </form>
+        </div>
+    </main>
+
+    <script src="../script/inscription.js"></script>
 </body>
+
 </html>
-
-<?php
-
-?>

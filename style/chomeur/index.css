@@ -1,0 +1,304 @@
+/* a modifier*/
+svg {
+    border-radius: 50px;
+    background-color: #666;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #F0F0F0;
+
+}
+
+main button {
+    cursor: pointer;
+}
+
+main fieldset {
+    margin-top: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+main h3,
+h2 {
+    margin: 0 0 10px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+main fieldset legend {
+    color: #333;
+}
+
+main fieldset div {
+    background-color: #cef8d7;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 2px;
+    border: solid gray 1px;
+    border-style: dashed;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #333;
+}
+
+main fieldset div:hover {
+    opacity: 70%;
+}
+
+
+.prophile {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    width: 250px;
+    overflow: hidden;
+    transition: 0.5s;
+    padding: 20px;
+    color: #333333;
+
+}
+.prophile .prophile_img{
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+
+}
+
+.publication {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    transition: 0.5s;
+    margin-bottom: 10px;
+}
+
+.publication .container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.publication .container input {
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 20px;
+    border-radius: 5px;
+    padding-left: 7px;
+    height: 50px;
+    font-size: 25px;
+    color: #333;
+}
+
+.publication .container textarea {
+    margin-left: 20px;
+    width: 90%;
+    height: 100px;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.publication .container .btn_annonce {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 10px 10px;
+}
+
+.publication .container .btn_annonce button {
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    background-color: #666;
+    color: white;
+}
+.publication .container .type_img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+}
+
+.publication .container .btn_pub {
+    padding: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ffd700;
+    font-style: oblique;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.publication .container .btn_pub:hover {
+    box-shadow: 3px 3px 3px #aff1bab5;
+}
+
+.entreprise {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    width: 300px;
+    height: auto;
+    overflow: hidden;
+    transition: 0.5s;
+    padding: 20px;
+}
+
+.entreprise .container .list {
+    display: flex;
+    flex-direction: column;
+}
+
+.entreprise .container .list a {
+    color: #333;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.entreprise .container .list .row {
+    background-color: #d2d7d4;
+    padding: 10px;
+    border-radius: 5px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 15px;
+    transition: 0.3s;
+}
+
+.entreprise .container .list .row:hover {
+    background-color: #ffe551;
+    cursor: pointer;
+    color: #333;
+}
+
+.entreprise .container .list .ajout_exp {
+    cursor: pointer;
+    color: white;
+    background-color: rgb(96, 96, 96);
+    height: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.entreprise .container .list a {
+    text-decoration: none;
+}
+
+.entreprise .container .list .row .cadre_image{
+    margin-right: 5px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.proposition {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    width: 300px;
+    overflow: hidden;
+    transition: 0.5s;
+    padding: 20px;
+}
+
+.proposition .container .list {
+    display: flex;
+    flex-direction: column;
+}
+
+.proposition .container .list div {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+
+}
+
+.proposition .container .list svg {
+    border-radius: 50px;
+    background-color: #666;
+}
+
+.proposition .container .list button {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 15px;
+    border: solid #ffd700 2px;
+}
+
+.new_pub {
+    background-color: white;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    overflow: hidden;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.new_pub img {
+    width: 200px;
+    object-fit: cover;
+    max-height: 400px;
+    min-height: 200px;
+}
+
+.new_pub .link {
+    color: #88781f;
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+    left: 150px;
+}
+
+.new_pub .container {
+    padding: 15px;
+    max-width: 300px;
+    max-height: 400px;
+}
+
+.new_pub p {
+    margin: 0;
+    color: #666;
+}

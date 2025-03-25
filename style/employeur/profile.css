@@ -1,0 +1,71 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F0F0F0;
+    font-family: Arial, sans-serif;
+}
+.all{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.all .part{
+    min-height: 400px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: solid rgb(201, 199, 199) 1px;
+    box-shadow: 3px 3px 3px rgba(128, 128, 128, 0.562);
+}
+.all .d1{
+    text-align: center;
+    width: 300px;
+}
+.all .d2{
+    width: 400px;
+}
+.all .d3{
+    width: 300px;
+}
+.all .exp{
+    margin: 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.671);
+    padding: 5px;
+    border-radius: 5px;
+}
+.all .ent{
+    padding: 10px;
+    margin: 5px;
+    border: solid gray 1px;
+    border-radius: 5px;
+}
+.all h2,h3{
+    color: rgb(3, 130, 3);
+}
+.ent{
+    background-color: #d2d7d4;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 15px;
+}
+.ent svg,.ent img{
+    width: 50px;
+    border-radius: 100%;
+    background-color: gray;
+    margin-right: 10px;
+}
