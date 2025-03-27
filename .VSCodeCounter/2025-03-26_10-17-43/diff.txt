@@ -1,0 +1,60 @@
+Date : 2025-03-26 10:17:43
+Directory : c:\xampp\htdocs\JobRadar
+Total : 16 files,  798 codes, 46 comments, 81 blanks, all 925 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| PHP        |          8 |        575 |         20 |         57 |        652 |
+| JavaScript |          2 |        170 |         26 |         24 |        220 |
+| CSS        |          3 |         26 |          0 |         -1 |         25 |
+| Log        |          1 |         18 |          0 |          1 |         19 |
+| XML        |          2 |          9 |          0 |          0 |          9 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                       | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                          |         16 |        798 |         46 |         81 |        925 |
+| Components                                                                 |          5 |        501 |         14 |         54 |        569 |
+| Components\employeur                                                       |          5 |        501 |         14 |         54 |        569 |
+| Components\employeur (Files)                                               |          2 |          1 |          1 |          1 |          3 |
+| Components\employeur\Presentation                                          |          3 |        500 |         13 |         53 |        566 |
+| api                                                                        |          4 |         92 |          6 |          4 |        102 |
+| api (Files)                                                                |          1 |         18 |          0 |          1 |         19 |
+| api\employeur                                                              |          3 |         74 |          6 |          3 |         83 |
+| api\employeur\annonce                                                      |          1 |         11 |          3 |          0 |         14 |
+| api\employeur\entreprise                                                   |          2 |         63 |          3 |          3 |         69 |
+| public                                                                     |          2 |          9 |          0 |          0 |          9 |
+| script                                                                     |          2 |        170 |         26 |         24 |        220 |
+| script\chomeur                                                             |          1 |         85 |         13 |         12 |        110 |
+| script\employeur                                                           |          1 |         85 |         13 |         12 |        110 |
+| style                                                                      |          3 |         26 |          0 |         -1 |         25 |
+| style\chomeur                                                              |          2 |         -6 |          0 |         -1 |         -7 |
+| style\employeur                                                            |          1 |         32 |          0 |          0 |         32 |
++----------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                   | language   | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\xampp\htdocs\JobRadar\Components\employeur\Presentation\annonce.php     | PHP        |        166 |          1 |          5 |        172 |
+| c:\xampp\htdocs\JobRadar\Components\employeur\Presentation\entreprise.php  | PHP        |         12 |          0 |          5 |         17 |
+| c:\xampp\htdocs\JobRadar\Components\employeur\Presentation\publication.php | PHP        |        322 |         12 |         43 |        377 |
+| c:\xampp\htdocs\JobRadar\Components\employeur\header.php                   | PHP        |          6 |          1 |          0 |          7 |
+| c:\xampp\htdocs\JobRadar\Components\employeur\index.php                    | PHP        |         -5 |          0 |          1 |         -4 |
+| c:\xampp\htdocs\JobRadar\api\employeur\annonce\selectAllAnnonce.php        | PHP        |         11 |          3 |          0 |         14 |
+| c:\xampp\htdocs\JobRadar\api\employeur\entreprise\del_piece_jointe.php     | PHP        |         56 |          3 |          3 |         62 |
+| c:\xampp\htdocs\JobRadar\api\employeur\entreprise\delete_ent.php           | PHP        |          7 |          0 |          0 |          7 |
+| c:\xampp\htdocs\JobRadar\api\error.log                                     | Log        |         18 |          0 |          1 |         19 |
+| c:\xampp\htdocs\JobRadar\public\like.svg                                   | XML        |          4 |          0 |          0 |          4 |
+| c:\xampp\htdocs\JobRadar\public\like_ok.svg                                | XML        |          5 |          0 |          0 |          5 |
+| c:\xampp\htdocs\JobRadar\script\chomeur\index.js                           | JavaScript |         85 |         13 |         12 |        110 |
+| c:\xampp\htdocs\JobRadar\script\employeur\index.js                         | JavaScript |         85 |         13 |         12 |        110 |
+| c:\xampp\htdocs\JobRadar\style\chomeur\presentation_ent.css                | CSS        |         -3 |          0 |         -1 |         -4 |
+| c:\xampp\htdocs\JobRadar\style\chomeur\presentation_exp.css                | CSS        |         -3 |          0 |          0 |         -3 |
+| c:\xampp\htdocs\JobRadar\style\employeur\presentation_ent.css              | CSS        |         32 |          0 |          0 |         32 |
+| Total                                                                      |            |        798 |         46 |         81 |        925 |
++----------------------------------------------------------------------------+------------+------------+------------+------------+------------+

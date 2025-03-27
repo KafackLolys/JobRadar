@@ -10,7 +10,6 @@ header("Pragma: no-cache"); // Pragma pour la cache
 
 require_once(__DIR__ . "/../../api/database.php");
 $pdo = getConnexion();
-@session_start();
 // Vérifier si la variable de session existe
 if (isset($_SESSION['user_id'])) {
     $user_id = $_SESSION['user_id'];
@@ -48,7 +47,14 @@ if (isset($_SESSION['user_id'])) {
             <?php
             // Vérifier si la variable de session existe
             if ($user["prophile"]) {
-                echo "<img src='../../public/users/$user[prophile]' width='37px' style='border-radius: 50px;'>";
+                echo "<div style='background-image: url(http://localhost/JobRadar/public/users/$user[prophile]);
+                height: 50px;
+                width: 50px;
+                border-radius: 50%;
+                background-color:rgb(120, 120, 120);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;'></div>";
             } else {
                 echo "<svg width='37px' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'>
                     <path

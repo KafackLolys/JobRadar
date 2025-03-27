@@ -80,7 +80,7 @@ function tryTable() {
             titre VARCHAR(100) NOT NULL,
             description TEXT NOT NULL,
             image TEXT NOT NULL,
-            `like` INT NOT NULL,
+            likes INT NOT NULL,
             FOREIGN KEY (id_entreprise) REFERENCES entreprise(id)
         )",
 

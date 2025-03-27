@@ -6,18 +6,64 @@ header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0"); // Cont
 header("Cache-Control: post-check=0, pre-check=0", false); // Contrôle de la cache
 header("Pragma: no-cache"); // Pragma pour la cache
 ?>
+<?php
+
+require_once(__DIR__ . "/../../api/database.php");
+$pdo = getConnexion();
+// Vérifier si la variable de session existe
+if (isset($_SESSION['user_id'])) {
+    $user_id = $_SESSION['user_id'];
+    // Récupérer les informations de l'utilisateur
+    $stmt = $pdo->prepare("SELECT * FROM employeur WHERE id = :id");
+    $stmt->bindParam(':id', $user_id);
+    $stmt->execute();
+    $user = $stmt->fetch(PDO::FETCH_ASSOC);
+
+    //entreprise
+
+    $stmt = $pdo->prepare("SELECT id, nom,prophile FROM entreprise WHERE id_employeur = :id");
+    $stmt->bindParam(':id', $user_id);
+    $stmt->execute();
+    $entreprise = $stmt->fetchAll(PDO::FETCH_ASSOC);
+} else {
+    echo "
+    <div class='entreprise'>
+        <div class='container'>
+            <br><br><br>
+            <h3>Créer  Une Entreprise</h3>
+            <br>
+                <a  href='Components/Connexion.php'><div>Connecter vous &#8594;</div><a>
+        </div>
+    </div>
+    ";
+}
+?>
 <header>
     <div class="navbar">
-        <a href="http://localhost/JobRadar/index.php" class="logo">Job Radar</a>
+        <a href="http://localhost/JobRadar/Components/employeur/index.php" class="logo">Job Radar</a>
         <input required type="search" class="champ_recherche" placeholder="Rechercher...">
         <div>
             <button class="svg" id="openPopup">
-                <svg width="38px" height="35px" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <?php
+            // Vérifier si la variable de session existe
+            if ($user["prophile"]) {
+                echo "<div style='background-image: url(http://localhost/JobRadar/public/users/$user[prophile]);
+                height: 50px;
+                width: 50px;
+                border-radius: 50%;
+                background-color:rgb(120, 120, 120);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;'></div>";
+            } else {
+                echo "<svg width='37px' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'>
                     <path
-                        d="M8 7C9.65685 7 11 5.65685 11 4C11 2.34315 9.65685 1 8 1C6.34315 1 5 2.34315 5 4C5 5.65685 6.34315 7 8 7Z"
-                        fill="#000000" />
-                    <path d="M14 12C14 10.3431 12.6569 9 11 9H5C3.34315 9 2 10.3431 2 12V15H14V12Z" fill="#000000" />
-                </svg>
+                        d='M8 7C9.65685 7 11 5.65685 11 4C11 2.34315 9.65685 1 8 1C6.34315 1 5 2.34315 5 4C5 5.65685 6.34315 7 8 7Z'
+                        fill='#000000' />
+                    <path d='M14 12C14 10.3431 12.6569 9 11 9H5C3.34315 9 2 10.3431 2 12V15H14V12Z' fill='#000000' />
+                </svg>";
+            }
+            ?>
             </button>
 
             <button class="menu-button" onclick="openSlideBar()">Menu</button>
@@ -26,8 +72,8 @@ header("Pragma: no-cache"); // Pragma pour la cache
 
     <div id="mySlideBar" class="slide-bar">
         <a class="close" href="javascript:void(0)" onclick="closeSlideBar()">&times;</a>
-        <a class="lien" href="http://localhost/JobRadar/index.php">Accueil</a>
-        <a class="lien" href="#">Messagerie</a>
+        <a class="lien" href="http://localhost/JobRadar/Components/employeur/index.php">Accueil</a>
+        <a class="lien" href="#">Publication</a>
         <a class="lien" href="#">Abonnement</a>
         <a class="lien" href="#">À propos</a>
         <a class="lien" href="#">Contact</a>
@@ -43,8 +89,8 @@ header("Pragma: no-cache"); // Pragma pour la cache
             <br>
             <?php
             // Vérifier si la variable de session existe
-            if (isset($_SESSION['user_job'])) {
-                echo "<a href='http://localhost/JobRadar/Components/Prophile/prophile.php'><button>Mon Compte</button></a>";
+            if (isset($_SESSION['user_id'])) {
+                echo "<a href='http://localhost/JobRadar/Components/employeur/Prophile/prophile.php'><button>Mon Compte</button></a>";
                 echo "<a href='http://localhost/JobRadar/Components/Connexion.php'><button>Changer de compte</button></a>";
             } else {
                 echo "<a href='http://localhost/JobRadar/Components/Connexion.php'><button>Se connecter</button></a>";

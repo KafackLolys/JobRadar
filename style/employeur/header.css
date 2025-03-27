@@ -27,10 +27,9 @@
     flex-direction: row;
 }
 .navbar div .svg{
-    color: #555;
-    background-color: white;
     margin-right: 10px;
-    border-radius: 100%;
+    color: #555;
+    border-radius: 50%;
     cursor: pointer;
     border: none;
 }

@@ -920,7 +920,7 @@
 											"top": 649,
 											"width": 111.642578125,
 											"height": 13,
-											"text": "-like: Int",
+											"text": "-likes: Int",
 											"horizontalAlignment": 0
 										}
 									],
@@ -6636,7 +6636,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGUn5VkilON70c="
 							},
-							"name": "like",
+							"name": "likes",
 							"visibility": "private",
 							"type": "Int"
 						}

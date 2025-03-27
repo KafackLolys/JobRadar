@@ -1,3 +1,11 @@
+<?php
+    session_start();
+    if (isset($_SESSION['user_id'])) {
+        $user_id = $_SESSION['user_id'];
+    } else {
+        header("Location: ../../../index.php");
+    }
+?>
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -99,8 +107,8 @@
                 </div>
             </div>
         </div>
-        <hr>
-        <div>
+        <div style="width: 100%;">
+            <hr>
             <h2>Publication</h2>
             <?php include("publication.php");?>
         </div>

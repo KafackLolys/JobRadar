@@ -1,19 +1,10 @@
-
 <?php
-// Démarrer la session
-session_start();
-require_once("api/database.php");
-$pdo = getConnexion();
-tryTable();
-// Vérifier si la variable de session existe
-if (isset($_SESSION['user_job'])) {
-    $user = $_SESSION['user_job'];
-} else {
-    $user = null;
-    echo "<script>
-        console.log('Aucune information utilisateur disponible.')
-        </script>";
-}
+    session_start();
+    if (isset($_SESSION['user_id'])) {
+        $user_id = $_SESSION['user_id'];
+    } else {
+        header("Location: ../../index.php");
+    }
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -21,15 +12,15 @@ if (isset($_SESSION['user_job'])) {
 <head>
     <meta charset="UTF-8">
     <title>Accueil</title>
-    <link rel="stylesheet" href="style/index.css">
-    <link rel="stylesheet" href="style/header_general.css">
-    <link rel="stylesheet" href="style/footer_general.css">
+    <link rel="stylesheet" href="../../style/chomeur/index.css">
+    <link rel="stylesheet" href="../../style/chomeur/header.css">
+    <link rel="stylesheet" href="../../style/chomeur/footer.css">
 </head>
 
 <body>
     <?php
     //header
-    include("Components/header_general.php");
+    include("header.php");
     ?>
     <main>
         <?php
@@ -127,7 +118,7 @@ if (isset($_SESSION['user_job'])) {
     </main>
     <?php
     //footer
-    include("Components/footer_general.html");
+    include("footer.html");
     ?>
     <script src="script/index.js"></script>
 </body>
